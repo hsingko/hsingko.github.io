@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/tags/blog/</loc>
+    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/hugo/</loc>
+    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/it/</loc>
+    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/hello-world/</loc>
+    <lastmod>2020-11-06T13:21:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+  </url>
+  
+</urlset>

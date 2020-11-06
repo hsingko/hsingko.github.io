@@ -1,0 +1,45 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>无声狂啸</title>
+    <link>http://example.org/</link>
+    <description>Recent content on 无声狂啸</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>copyright 2019-2020.</copyright>
+    <lastBuildDate>Fri, 06 Nov 2020 13:27:21 +0800</lastBuildDate>
+    
+        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Hugo折腾笔记</title>
+        <link>http://example.org/posts/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Fri, 06 Nov 2020 13:27:21 +0800</pubDate>
+        
+        <guid>http://example.org/posts/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</guid>
+        <description>无声狂啸 http://example.org/posts/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/ -&lt;p&gt;又开始折腾起博客了，和大多数人一样，我已经折腾了好几次博客了。从wordpress到hexo、hugo，再到blogspot。现在又回归到了hugo，起因是因为今天看到一个特别漂亮的博客所以眼馋了。&lt;/p&gt;
+&lt;h1 id=&#34;开始&#34;&gt;开始&lt;/h1&gt;
+&lt;h2 id=&#34;主题&#34;&gt;主题&lt;/h2&gt;
+&lt;p&gt;第一步当然是选择一个漂亮的主题了，目前我选择的是diary主题，这个主题在简介和美观之间做到了非常好的平衡。但是如同其他主题一样，这个主题也存在着缺憾，那就是它的字体是从google font API中获取的。放到其他国家自然是没什么问题，但放到强国，那就有问题了，因为字体加载慢的关系，网页会先以默认字体显示，然后又突然抖一下变成另外一种字体。&lt;/p&gt;
+&lt;p&gt;而我又是一个强迫症患者，尝试修改了一下head.html里面的配置，想让它加载默认字体，但是却引发了更多的问题。所以还是先不改了。&lt;/p&gt;
+&lt;h2 id=&#34;发布流程&#34;&gt;发布流程&lt;/h2&gt;
+&lt;p&gt;自然是选择发布到github page上，netify上似乎也可以，但不知道什么时候会被墙。&lt;/p&gt;
+- http://example.org/posts/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/ - copyright 2019-2020.</description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Hello World</title>
+        <link>http://example.org/posts/hello-world/</link>
+        <pubDate>Fri, 06 Nov 2020 13:21:31 +0800</pubDate>
+        
+        <guid>http://example.org/posts/hello-world/</guid>
+        <description>无声狂啸 http://example.org/posts/hello-world/ -&lt;p&gt;hello,world!&lt;/p&gt;
+- http://example.org/posts/hello-world/ - copyright 2019-2020.</description>
+        </item>
+    
+    
+  </channel>
+</rss> 
