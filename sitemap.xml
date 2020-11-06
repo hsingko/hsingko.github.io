@@ -8,12 +8,27 @@
   </url>
   
   <url>
+    <loc>https://hsingko.github.io/categories/</loc>
+    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/categories/gossip/</loc>
+    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hsingko.github.io/tags/hugo/</loc>
     <lastmod>2020-11-06T13:27:21+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://hsingko.github.io/posts/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/</loc>
     <lastmod>2020-11-06T13:27:21+08:00</lastmod>
   </url>
   
@@ -33,17 +48,8 @@
   </url>
   
   <url>
-    <loc>https://hsingko.github.io/</loc>
-    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hsingko.github.io/posts/hello-world/</loc>
     <lastmod>2020-11-06T13:21:31+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hsingko.github.io/categories/</loc>
   </url>
   
 </urlset>
