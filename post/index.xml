@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gossip on Hsingko</title>
-    <link>https://hsingko.github.io/categories/gossip/</link>
-    <description>Recent content in gossip on Hsingko</description>
+    <title>Posts on Hsingko</title>
+    <link>https://hsingko.github.io/post/</link>
+    <description>Recent content in Posts on Hsingko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2020 13:27:21 +0800</lastBuildDate><atom:link href="https://hsingko.github.io/categories/gossip/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Nov 2020 13:27:21 +0800</lastBuildDate><atom:link href="https://hsingko.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo折腾笔记</title>
       <link>https://hsingko.github.io/post/2020/11/06/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</link>
@@ -14,6 +14,15 @@
       
       <guid>https://hsingko.github.io/post/2020/11/06/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</guid>
       <description>&lt;p&gt;又开始折腾起博客了，和大多数人一样，我已经折腾了好几次博客了。从wordpress到hexo、hugo，再到blogspot。现在又回归到了hugo，起因是因为今天看到一个特别漂亮的博客所以眼馋了。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://hsingko.github.io/post/2020/11/06/hello-world/</link>
+      <pubDate>Fri, 06 Nov 2020 13:21:31 +0800</pubDate>
+      
+      <guid>https://hsingko.github.io/post/2020/11/06/hello-world/</guid>
+      <description>hello,world!</description>
     </item>
     
   </channel>
