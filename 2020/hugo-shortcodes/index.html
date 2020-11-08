@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noodp"/>
+    <meta name="author" content="hsingko">
+    <meta name="description" content="I have no month, but I must scream">
+    
+    
+    <link rel="prev" href="https://hsingko.github.io/2020/%E5%86%85%E8%A7%82/" />
+    
+    <link rel="canonical" href="https://hsingko.github.io/2020/hugo-shortcodes/" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>
+        
+        
+            Hugo Shortcode简介 | hsingko`s Blog
+        
+    </title>
+    <meta name="title" content="Hugo Shortcode简介 | hsingko`s Blog">
+    
+<link rel="stylesheet" href="/css/main.min.css">
+
+
+    
+    
+ 
+
+<script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "https:\/\/hsingko.github.io"
+    },
+    "articleSection" : "posts",
+    "name" : "Hugo Shortcode简介",
+    "headline" : "Hugo Shortcode简介",
+    "description" : "shortcodes其实就是hugo提供的一种增强markdown表现力的工具。 具体是什么东西没必要搞清楚，知道它能干什么就好，它可以： hu",
+    "inLanguage" : "zh-cn",
+    "author" : "hsingko",
+    "creator" : "hsingko",
+    "publisher": "hsingko",
+    "accountablePerson" : "hsingko",
+    "copyrightHolder" : "hsingko",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-11-08 09:11:37 \u002b0800 CST",
+    "dateModified" : "2020-11-08 09:11:37 \u002b0800 CST",
+    "url" : "https:\/\/hsingko.github.io\/2020\/hugo-shortcodes\/",
+    "wordCount" : "640",
+    "keywords" : [ "hugo", "hsingko`s Blog"]
+}
+</script>
+
+  </head>
+    <body class="">
+        <div class="wrapper">
+            <nav class="navbar">
+    
+        <progress class="content_progress" max="0" value="0"></progress>
+    
+    <div class="container">
+        
+            <div class="navbar-header header-back2home-logo">
+                <span class="logo_mark" >>$</span>
+                <a href="https://hsingko.github.io">
+                    <span class="logo_text" >cd /home/</span>
+                    <span class="logo_cursor" ></span>
+                </a>
+            </div>
+        
+        <div class="navbar-right">
+                
+                <span class="menu">
+                
+                <a class="menu-item" href="/posts/" title="">Blog</a>
+                
+                <a class="menu-item" href="/categories/" title="">Categories</a>
+                
+                <a class="menu-item" href="/tags/" title="">Tags</a>
+                
+                <a class="menu-item" href="/about/" title="">About</a>
+                
+                <span class="divide"></span>
+                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a>
+                </span>
+        </div>
+    </div>
+</nav>
+<nav class="navbar-mobile" id="nav-mobile" style="display: none">
+    
+        <progress class="content_progress" max="0" value="0"></progress>
+    
+     <div class="container">
+        <div class="navbar">
+            <div class="navbar-header header-logo">
+                    <a href="https://hsingko.github.io">hsingko`s Blog</a>
+            </div>
+            <div class="navbar-right">
+                <div><a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-dark-mode"></i></a></div>
+                <div class="menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+     
+          <div class="menu" id="mobile-menu">
+                <nav class="mb-md">
+                    
+                    
+                        <a class="menu-item" href="/posts/" title="">
+                            <h3>Blog</h3>
+                            <div class="menu-active"></div>
+                        </a>
+                    
+                        <a class="menu-item" href="/categories/" title="">
+                            <h3>Categories</h3>
+                            <div class="menu-active"></div>
+                        </a>
+                    
+                        <a class="menu-item" href="/tags/" title="">
+                            <h3>Tags</h3>
+                            <div class="menu-active"></div>
+                        </a>
+                    
+                        <a class="menu-item" href="/about/" title="">
+                            <h3>About</h3>
+                            <div class="menu-active"></div>
+                        </a>
+                    
+                </nav>
+        </div>
+    </div>
+</nav>
+            <main class="main">
+                <div class="container">
+                    
+<article class="post-warp" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">Hugo Shortcode简介</h1>
+        <div class="post-meta">
+                Written by <a itemprop="name" href="https://hsingko.github.io" rel="author">hsingko</a> with ♥
+                <span class="post-time">
+                on <time datetime=2020-11-08 itemprop="datePublished">November 8, 2020</time>
+                </span>
+                in
+                
+                <i class="iconfont icon-folder"></i>
+                <span class="post-category">
+                        
+                        
+                        
+                          <a href="https://hsingko.github.io/categories/notes/"> notes, </a>
+                        
+                        
+                </span>
+                <span class="post-word-count">640 words</span>
+        </div>
+    </header>
+
+    <div class="post-content">
+        
+
+        
+        
+            
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+
+        <p>shortcodes其实就是hugo提供的一种增强markdown表现力的工具。</p>
+<p>具体是什么东西没必要搞清楚，知道它能干什么就好，它可以：</p>
+<h2 id="hugo自带的shortcode">hugo自带的shortcode</h2>
+<h3 id="1插入视频">1.插入视频</h3>
+<p>目前支持vimeo，youtube。以youtube为例，比如你想要分享链接</p>
+<pre><code class="language-url" data-lang="url">https://www.youtube.com/watch?v=CDtQ3rai9Ks
+</code></pre><p>那么只要在markdown中输入：</p>
+<pre><code>{{&lt; youtube CDtQ3rai9Ks &gt;}}
+</code></pre><p>效果：
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/CDtQ3rai9Ks" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<h3 id="2插入图片">2.插入图片</h3>
+<p>这个功能不怎么有用，还不如markdown的简洁</p>
+<pre><code>{{&lt; figure src=&quot;/images/cyberpunk/cyberpunk.jpg&quot; title=&quot;cyberpunk&quot; &gt;}}
+</code></pre><p>效果：</p>
+<figure>
+    <img src="/images/cyberpunk/cyberpunk.jpg"/> <figcaption>
+            <h4>cyberpunk</h4>
+        </figcaption>
+</figure>
+
+<h3 id="3插入gist">3.插入gist</h3>
+<p>目标：</p>
+<pre><code class="language-url" data-lang="url">https://gist.github.com/spf13/7896402
+</code></pre><p>shortcode:</p>
+<pre><code>{{&lt; gist spf13 7896402 &gt;}}
+</code></pre><p>效果：
+<script type="application/javascript" src="https://gist.github.com/spf13/7896402.js"></script>
+</p>
+<h3 id="4插入shortcode">4.插入&quot;shortcode&quot;</h3>
+<p>有时候你想要在markdown中写shortcode字符串，但又不想被hugo瞎转换，就比如上面我做的那样，那只要在{{&lt;&hellip;&gt;}}中间用一对/**/括住shortcode就可以了，就像下面这样：</p>
+<script type="application/javascript" src="https://gist.github.com/hsingko/6bc43db38853ed32f36fc0fac930c3d7.js"></script>
+
+<h2 id="你也可以自己编写抄袭shortcode">你也可以自己编写(抄袭)shortcode</h2>
+<p>作为我这种资深伸手党兼菜鸡码农，代码自然是能抄就抄，很多功能丰富的模板都自带了一些好用的shortcode，我们只要知道从那里copy就可以了。目录是在：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">themes/&lt;victim-theme&gt;/layouts/shortcodes/*
+</code></pre></div><p>文件名自然就是shortcode的代码了，下面介绍一些比较有用的功能。</p>
+<h3 id="1插入html">1.插入html</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!--shortcodes/rawhtml.html--&gt;</span>
+<span style="color:#75715e">&lt;!-- raw html --&gt;</span>
+{{.Inner}}
+</code></pre></div><p>用法：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt; <span style="color:#f92672">rawhtml</span> &gt;}}
+&lt;<span style="color:#f92672">div</span>&gt;
+   &lt;<span style="color:#f92672">style</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/css&#34;</span> <span style="color:#a6e22e">scoped</span>&gt;
+       <span style="color:#f92672">button</span> { <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">green</span>; } 
+   &lt;/<span style="color:#f92672">style</span>&gt;
+   &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/javascript&#34;</span>&gt;
+      <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">clicks</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+      <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">onClick</span>() {
+          <span style="color:#a6e22e">clicks</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>;
+          document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;clicks&#34;</span>).<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">clicks</span>;
+      };
+   &lt;/<span style="color:#f92672">script</span>&gt;
+   &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;onClick()&#34;</span>&gt;Click me&lt;/<span style="color:#f92672">button</span>&gt;
+   &lt;<span style="color:#f92672">p</span>&gt;Clicks: &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;clicks&#34;</span>&gt;0&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
+{{&lt; /<span style="color:#f92672">rawhtml</span> &gt;}}
+</code></pre></div><p>效果：
+
+<div>
+    
+<div>
+   <style type="text/css" scoped>
+       button { color: green; } 
+   </style>
+   <script type="text/javascript">
+      var clicks = 0;
+      function onClick() {
+          clicks += 1;
+          document.getElementById("clicks").innerHTML = clicks;
+      };
+   </script>
+   <button type="button" onClick="onClick()">Click me</button>
+   <p>Clicks: <a id="clicks">0</a></p>
+</div>
+
+</div>
+</p>
+<h3 id="2插入bilibili视频">2.插入bilibili视频</h3>
+<h3 id="3插入折叠内容">3.插入折叠内容</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!--shortcodes/expand.html--&gt;</span>
+&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;expand&#34;</span>&gt;
+  &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;expand__button&#34;</span> <span style="color:#a6e22e">aria-label</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Expand Button&#34;</span>&gt;
+    &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;expand-icon expand-icon__right&#34;</span>&gt;
+        {{ partial &#34;svgs/arrow/keyboard-arrow-right.svg&#34; (dict &#34;width&#34; 24 &#34;height&#34; 24) }}
+    &lt;/<span style="color:#f92672">span</span>&gt;
+    {{ .Get 0 }}
+  &lt;/<span style="color:#f92672">button</span>&gt;
+  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;expand__content&#34;</span>&gt;
+    {{ .Inner | markdownify }}
+  &lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
+</code></pre></div><p>用法：</p>
+<pre><code>{{&lt; expand &quot;Expand me&quot; &gt;}}Some Markdown Contents{{&lt; /expand &gt;}}
+</code></pre><p>效果：</p>
+<span class="spoiler" >
+This spoiler
+</span>
+
+    </div>
+
+    <div class="post-copyright">
+            
+            <p class="copyright-item">
+                <span>Author:</span>
+                <span>hsingko </span>
+                </p>
+            
+
+            
+            <p class="copyright-item">
+                    <span>Link:</span>
+                    <a href=https://hsingko.github.io/2020/hugo-shortcodes/>https://hsingko.github.io/2020/hugo-shortcodes/</span>
+            </p>
+            
+            
+            <p class="copyright-item lincese">
+                本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可
+            </p>
+            
+    </div>
+
+
+    <div class="post-tags">
+        
+            <section>
+            <i class="iconfont icon-tag"></i>Tag(s):
+            
+            <span class="tag"><a href="https://hsingko.github.io/tags/hugo/">
+                    #hugo</a></span>
+            
+            </section>
+        
+        <section>
+                <a href="javascript:window.history.back();">back</a></span> ·
+                <span><a href="https://hsingko.github.io">home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav">
+        
+        <a href="https://hsingko.github.io/2020/%E5%86%85%E8%A7%82/" class="prev" rel="prev" title="《内观》：结束痛苦的轮回"><i class="iconfont icon-left"></i>&nbsp;《内观》：结束痛苦的轮回</a>
+        
+        
+    </div>
+
+    <div class="post-comment">
+        
+            
+        
+    </div>
+</article>
+                </div>
+            </main>
+            <footer class="footer">
+    <div class="copyright">
+        &copy;
+        
+        <span itemprop="copyrightYear">2020 - 2020</span>
+        
+        <span class="with-love">
+    	 <i class="iconfont icon-love"></i>
+         </span>
+         
+            <span class="author" itemprop="copyrightHolder"><a href="https://hsingko.github.io">hsingko</a> | </span>
+         
+
+         
+		  <span>Powered by <a href="https://gohugo.io/" target="_blank" rel="external nofollow">Hugo</a> & <a href="https://github.com/Mogeko/Mogege" target="_blank" rel="external nofollow">Mogege</a></span>
+    </div>
+</footer>
+
+
+
+
+
+
+<script defer src="/js/vendor_main.min.js"></script>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js" integrity="sha256-j+yj56cdEY2CwkVtGyz18fNybFGpMGJ8JxG3GSyO2+I=" crossorigin="anonymous"></script>
+<script> pangu.spacingPage();</script>
+
+
+
+
+
+        </div>
+    </body>
+</html>

@@ -1,59 +1,112 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>https://hsingko.github.io/tags/blog/</loc>
-    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
-  </url>
+    <url>
+      <loc>https://hsingko.github.io/tags/blog/</loc>
+      
+      <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+      
+      
+      
+      
+    </url>
   
-  <url>
-    <loc>https://hsingko.github.io/categories/</loc>
-    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
-  </url>
+    <url>
+      <loc>https://hsingko.github.io/categories/</loc>
+      
+      <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+      
+      
+      
+      
+    </url>
   
-  <url>
-    <loc>https://hsingko.github.io/categories/gossip/</loc>
-    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
-  </url>
+    <url>
+      <loc>https://hsingko.github.io/categories/gossip/</loc>
+      
+      <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+      
+      
+      
+      
+    </url>
   
-  <url>
-    <loc>https://hsingko.github.io/</loc>
-    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
-  </url>
+    <url>
+      <loc>https://hsingko.github.io/</loc>
+      
+      <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+      
+      
+      
+      
+    </url>
   
-  <url>
-    <loc>https://hsingko.github.io/tags/hugo/</loc>
-    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
-  </url>
+    <url>
+      <loc>https://hsingko.github.io/tags/hugo/</loc>
+      
+      <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+      
+      
+      
+      
+    </url>
   
-  <url>
-    <loc>https://hsingko.github.io/post/2020/11/06/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
-  </url>
+    <url>
+      <loc>https://hsingko.github.io/post/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</loc>
+      
+      <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+      
+      
+      
+      
+    </url>
   
-  <url>
-    <loc>https://hsingko.github.io/tags/it/</loc>
-    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
-  </url>
+    <url>
+      <loc>https://hsingko.github.io/tags/it/</loc>
+      
+      <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+      
+      
+      
+      
+    </url>
   
-  <url>
-    <loc>https://hsingko.github.io/post/</loc>
-    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
-  </url>
+    <url>
+      <loc>https://hsingko.github.io/post/</loc>
+      
+      <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+      
+      
+      
+      
+    </url>
   
-  <url>
-    <loc>https://hsingko.github.io/tags/</loc>
-    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
-  </url>
+    <url>
+      <loc>https://hsingko.github.io/tags/</loc>
+      
+      <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+      
+      
+      
+      
+    </url>
   
-  <url>
-    <loc>https://hsingko.github.io/post/2020/11/06/hello-world/</loc>
-    <lastmod>2020-11-06T13:21:31+08:00</lastmod>
-  </url>
+    <url>
+      <loc>https://hsingko.github.io/post/hello-world/</loc>
+      
+      <lastmod>2020-11-06T13:21:31+08:00</lastmod>
+      
+      
+      
+      
+    </url>
   
-  <url>
-    <loc>https://hsingko.github.io/bdc/</loc>
-  </url>
+    <url>
+      <loc>https://hsingko.github.io/bdc/</loc>
+      
+      
+      
+      
+    </url>
   
 </urlset>
