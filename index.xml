@@ -9,6 +9,15 @@
     <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
     <lastBuildDate>Fri, 06 Nov 2020 13:27:21 +0800</lastBuildDate><atom:link href="https://hsingko.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Burn’s Depression Checklist(伯恩斯抑郁症自测表)</title>
+      <link>https://hsingko.github.io/bdc/</link>
+      <pubDate>Sun, 08 Nov 2020 09:11:37 +0800</pubDate>
+      
+      <guid>https://hsingko.github.io/bdc/</guid>
+      <description>Thoughts and Feelings 1. Feeling sad or down in the dumps Not at all Sometimes Moderately A lot Extremely 2. Feeling unhappy or blue Not at all Sometimes Moderately A lot Extremely 3. Crying spells or tearfulness Not at all Sometimes Moderately A lot Extremely 4. Feeling discouraged Not at all Sometimes Moderately A lot Extremely 5. Feeling hopeless Not at all Sometimes Moderately A lot Extremely 6. Low self-esteem</description>
+    </item>
+    
+    <item>
       <title>Hugo折腾笔记</title>
       <link>https://hsingko.github.io/post/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Fri, 06 Nov 2020 13:27:21 +0800</pubDate>
@@ -24,15 +33,6 @@
       
       <guid>https://hsingko.github.io/post/hello-world/</guid>
       <description>hello,world!</description>
-    </item>
-    
-    <item>
-      <title>Burn’s Depression Checklist(伯恩斯抑郁症自测表)</title>
-      <link>https://hsingko.github.io/bdc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hsingko.github.io/bdc/</guid>
-      <description>Thoughts and Feelings 1. Feeling sad or down in the dumps Not at all Sometimes Moderately A lot Extremely 2. Feeling unhappy or blue Not at all Sometimes Moderately A lot Extremely 3. Crying spells or tearfulness Not at all Sometimes Moderately A lot Extremely 4. Feeling discouraged Not at all Sometimes Moderately A lot Extremely 5. Feeling hopeless Not at all Sometimes Moderately A lot Extremely 6. Low self-esteem</description>
     </item>
     
   </channel>

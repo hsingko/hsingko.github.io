@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hsingko.github.io/bdc/</loc>
+    <lastmod>2020-11-08T09:11:37+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hsingko.github.io/tags/blog/</loc>
     <lastmod>2020-11-06T13:27:21+08:00</lastmod>
   </url>
@@ -50,10 +55,6 @@
   <url>
     <loc>https://hsingko.github.io/post/hello-world/</loc>
     <lastmod>2020-11-06T13:21:31+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hsingko.github.io/bdc/</loc>
   </url>
   
 </urlset>
