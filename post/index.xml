@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Hugo</title>
+    <title>Posts on hsingko</title>
     <link>https://hsingko.github.io/post/</link>
-    <description>Recent content in Posts on Hugo</description>
+    <description>Recent content in Posts on hsingko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
-    <lastBuildDate>Fri, 06 Nov 2020 13:27:21 +0800</lastBuildDate><atom:link href="https://hsingko.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 09:49:02 +0800</lastBuildDate><atom:link href="https://hsingko.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>现在在追的漫画</title>
+      <link>https://hsingko.github.io/post/manga/</link>
+      <pubDate>Tue, 10 Nov 2020 09:49:02 +0800</pubDate>
+      
+      <guid>https://hsingko.github.io/post/manga/</guid>
+      <description>生活已经如此艰难，所以我们就一起来看轻松愉快的漫画吧。 日常类 《伯纳德小姐说》 作者：施川汤雨期 没错，封面上这个一脸呆样的家伙就是漫画的主人公伯</description>
+    </item>
+    
+    <item>
+      <title>what the font?</title>
+      <link>https://hsingko.github.io/post/what-the-font/</link>
+      <pubDate>Mon, 09 Nov 2020 16:04:38 +0800</pubDate>
+      
+      <guid>https://hsingko.github.io/post/what-the-font/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Hugo折腾笔记</title>
       <link>https://hsingko.github.io/post/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</link>

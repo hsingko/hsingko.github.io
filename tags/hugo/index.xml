@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on Hugo</title>
+    <title>hugo on hsingko</title>
     <link>https://hsingko.github.io/tags/hugo/</link>
-    <description>Recent content in hugo on Hugo</description>
+    <description>Recent content in hugo on hsingko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
