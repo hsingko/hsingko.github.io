@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.77.0" />
+
+  <title> 从fcitx升级到fcitx5 |  hsingko</title>
+  <meta name="description" content="I have no mouth, but I must scream.">
+  <link rel="stylesheet" href="https://hsingko.github.io/css/index.css">
+  <link rel="stylesheet" href="https://hsingko.github.io/css/classes.css">
+  <link rel="canonical" href="https://hsingko.github.io/post/%E4%BB%8Efcitx%E5%8D%87%E7%BA%A7%E5%88%B0fcitx5/">
+  <link rel="alternate" type="application/rss+xml" href="" title="hsingko">
+  
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="menus">
+  
+
+  <nav >
+    
+    <a href="/"> Home</a>
+    
+    <a href="/categories"> Categories</a>
+    
+    <a href="/tags"> Tags</a>
+    
+    <a href="/bdc/"> BDC</a>
+    
+  </nav>
+
+  <nav class="fontawesome">
+    
+    
+    <a href="https://hsingko.github.io/index.xml" target="_blank">
+        <i title="RSS" class="fas fa-rss"></i>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="hidden description">I have no mouth, but I must scream.</div>
+  
+</header>
+
+<article id="article">
+  <header>
+  
+
+    <h1 style="text-align: center;" >从fcitx升级到fcitx5</h1>
+    
+    Written by <a itemprop="name" href="https://hsingko.github.io/" rel="author">hsingko</a> with ♥
+                <span class="post-time">
+                on <time datetime=2020-11-07 itemprop="datePublished">November 7, 2020</time>
+                </span>
+                in
+                
+                <i class="fas fa-folder"></i>
+                <span class="post-category">
+                        
+                        
+                        
+                          <a href="https://hsingko.github.io/categories/gossip/"> gossip, </a>
+                        
+                        
+                </span>
+                <span class="post-word-count">726 words</span>
+  </header>
+
+
+  <p>上个星期偶然看到有博客说fcitx5在arch上已经比较好用了，于是又大着胆子卸载了fcitx装上了fcitx5。用着确实很爽，因为界面漂亮，差不多是一个高仿版的win10输入法了。词典方面也装了肥猫的维基词库，但是平时输入的时候没什么明显的感觉，一些作家的名字还是没有录入，比如“中禅寺秋彦”、“三津田信三”等一些日本的推理作家。而且词频也很奇怪，我用的是双拼输入法，打词组的时候首页备选框里有很多单字，翻了两三页却又出现了我想要的词组。</p>
+<p>现在一个星期用下来，单纯从输入法的角度看，我感觉比起fcitx的sunpinyin并没有什么优势，如果不是很在意fctix丑丑的颜值的话，完全没有必要更新，因为会遇到非常多的坑。一些程序并不支持fcitx5，目前我遇到的有两个：</p>
+<ol>
+<li>anki。比aur源更新的版本均无法调出输入法，具体来说就是版本号大于2.1.26的都可以告别fcitx5了。老版本能用新版本反而用不了，这也是挺其妙的。倒不是非要用最新版本的anki,但是有些插件有版本要求，比如awesomeTTS。如果对插件有需求的还是继续用fcitx吧。</li>
+<li>foxit-reader。这个就比较要命了，linux下好用的pdf阅读器可不多，这个没法用的话在pdf上做注解都会很麻烦。github上也有人提出了issue，看fcitx5作者的意思是这个问题没法由fcitx5解决。</li>
+</ol>
+<p>我相信会有坑的不仅仅只有这么几个，fcitx5还没有成为用户使用的主流输入法，所以fcitx还会继续挺很久。况且其实还是有办法挽救fcitx的颜值的，有款叫kimtoy的界面管理器能把fcitx配置得和macOS输入法差不多的样子。怕麻烦的还是不要折腾了，fcitx5还有很长的路要走。</p>
+
+
+  
+  <footer>
+    <hr>
+    
+    <div class="post-tags">
+    
+      <i class="fas fa-tags"></i>
+      
+        <a href="/tags/linux">linux</a>
+        &nbsp;
+      
+    
+    </div>
+  </footer>
+  
+
+  
+
+
+  <div class="comments">
+
+
+
+</div>
+
+</article>
+
+
+
+  
+  
+  
+</body>
+<div class="foot">
+  
+  
+    &copy; 2020 - 2020 &#183; 
+    <a href="/">Home</a> · Theme <a href="https://github.com/RainerChiang/simpleness">Simpleness</a> Powered by <a href="https://gohugo.io/">Hugo</a> &#183;
+    <a href="#"><i class="fas fa-chevron-up"></i></a>
+  
+
+  
+</div>
+
+<script src="/js/lazyload.min.js"></script>
+<script>
+  var lazyImage = new LazyLoad({
+    container: document.getElementById('article')
+  });
+</script>
+
+
+</html>
