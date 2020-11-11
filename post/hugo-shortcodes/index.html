@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.77.0" />
+
+  <title> Hugo Shortcode简介 |  hsingko</title>
+  <meta name="description" content="I have no mouth, but I must scream.">
+  <link rel="stylesheet" href="https://hsingko.github.io/css/index.css">
+  <link rel="stylesheet" href="https://hsingko.github.io/css/classes.css">
+  <link rel="canonical" href="https://hsingko.github.io/post/hugo-shortcodes/">
+  <link rel="alternate" type="application/rss+xml" href="" title="hsingko">
+  
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="menus">
+  
+
+  <nav >
+    
+    <a href="/"> Home</a>
+    
+    <a href="/categories"> Categories</a>
+    
+    <a href="/tags"> Tags</a>
+    
+    <a href="/bdc/"> BDC</a>
+    
+  </nav>
+
+  <nav class="fontawesome">
+    
+    
+    <a href="https://hsingko.github.io/index.xml" target="_blank">
+        <i title="RSS" class="fas fa-rss"></i>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="hidden description">I have no mouth, but I must scream.</div>
+  
+</header>
+
+<article id="article">
+  <header>
+  
+
+    <h1 style="text-align: center;" >Hugo Shortcode简介</h1>
+    
+    Written by <a itemprop="name" href="https://hsingko.github.io/" rel="author">hsingko</a> with ♥
+                <span class="post-time">
+                on <time datetime=2020-11-08 itemprop="datePublished">November 8, 2020</time>
+                </span>
+                in
+                
+                <i class="fas fa-folder"></i>
+                <span class="post-category">
+                        
+                        
+                        
+                          <a href="https://hsingko.github.io/categories/notes/"> notes, </a>
+                        
+                        
+                </span>
+                <span class="post-word-count">739 words</span>
+  </header>
+
+
+  <p>shortcodes其实就是hugo提供的一种增强markdown表现力的工具。</p>
+<h2 id="hugo自带的shortcode">hugo自带的shortcode</h2>
+<p>其实shortcode具体是什么东西没必要搞清楚，知道它能干什么就好，它可以：</p>
+<h3 id="1插入视频">1.插入视频</h3>
+<p>目前支持vimeo，youtube。以youtube为例，比如你想要分享链接</p>
+<pre><code>https://www.youtube.com/watch?v=CDtQ3rai9Ks
+</code></pre><p>那么只要在markdown中输入：</p>
+<pre><code>{{&lt; youtube CDtQ3rai9Ks &gt;}}
+</code></pre><p>效果：
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/CDtQ3rai9Ks" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<h3 id="2插入图片">2.插入图片</h3>
+<p>这个功能不怎么有用，还不如markdown的简洁。唯一的优点是可以自定义图片的长宽。</p>
+<pre><code>{{&lt; figure src=&quot;/images/cyberpunk/cyberpunk.jpg&quot; title=&quot;cyberpunk&quot; height=800 width=600 &gt;}}
+</code></pre><p>效果：</p>
+<figure>
+    <img src="/images/cyberpunk/cyberpunk.jpg" width="600" height="800"/> <figcaption>
+            <h4>cyberpunk</h4>
+        </figcaption>
+</figure>
+
+<h3 id="3插入gist">3.插入gist</h3>
+<p>目标：</p>
+<pre><code class="language-url" data-lang="url">https://gist.github.com/spf13/7896402
+</code></pre><p>shortcode:</p>
+<pre><code>{{&lt; gist spf13 7896402 &gt;}}
+</code></pre><p>效果：
+<script type="application/javascript" src="https://gist.github.com/spf13/7896402.js"></script>
+</p>
+<h3 id="4插入shortcode">4.插入&quot;shortcode&quot;</h3>
+<p>有时候你想要在markdown中写shortcode字符串，但又不想被hugo瞎转换，就比如上面我做的那样，那只要在{{&lt;&hellip;&gt;}}中间用一对/**/括住shortcode就可以了，就像下面这样：</p>
+<script type="application/javascript" src="https://gist.github.com/hsingko/6bc43db38853ed32f36fc0fac930c3d7.js"></script>
+
+<h2 id="你也可以自己编写抄袭shortcode">你也可以自己编写(抄袭)shortcode</h2>
+<p>作为我这种资深伸手党兼菜鸡码农，代码自然是能抄就抄，很多功能丰富的模板都自带了一些好用的shortcode，我们只要知道从那里copy就可以了。目录是在：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">themes/&lt;victim-theme&gt;/layouts/shortcodes/*
+</code></pre></div><p>文件名自然就是shortcode的代码了，下面介绍一些比较有用的功能。</p>
+<h3 id="示例插入html">示例：插入html</h3>
+<p>在shortcodes目录下新增如下文件：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!--shortcodes/rawhtml.html--&gt;</span>
+<span style="color:#75715e">&lt;!-- raw html --&gt;</span>
+{{.Inner}}
+</code></pre></div><p>这样我们就拥有了一个名为{{rawhtml}}的shortcode，可以在这个标签内直接写入html代码。</p>
+<p>代码：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt; <span style="color:#f92672">rawhtml</span> &gt;}}
+&lt;<span style="color:#f92672">div</span>&gt;
+   &lt;<span style="color:#f92672">style</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/css&#34;</span> <span style="color:#a6e22e">scoped</span>&gt;
+       <span style="color:#f92672">button</span> { <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">green</span>; } 
+   &lt;/<span style="color:#f92672">style</span>&gt;
+   &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/javascript&#34;</span>&gt;
+      <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">clicks</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+      <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">onClick</span>() {
+          <span style="color:#a6e22e">clicks</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>;
+          document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;clicks&#34;</span>).<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">clicks</span>;
+      };
+   &lt;/<span style="color:#f92672">script</span>&gt;
+   &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;onClick()&#34;</span>&gt;Click me&lt;/<span style="color:#f92672">button</span>&gt;
+   &lt;<span style="color:#f92672">p</span>&gt;Clicks: &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;clicks&#34;</span>&gt;0&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;/<span style="color:#f92672">div</span>&gt;
+{{&lt; /<span style="color:#f92672">rawhtml</span> &gt;}}
+</code></pre></div><p>效果：
+
+
+<div>
+   <style type="text/css" scoped>
+       button { color: green; } 
+   </style>
+   <script type="text/javascript">
+      var clicks = 0;
+      function onClick() {
+          clicks += 1;
+          document.getElementById("clicks").innerHTML = clicks;
+      };
+   </script>
+   <button type="button" onClick="onClick()">Click me</button>
+   <p>Clicks: <a id="clicks">0</a></p>
+</div>
+
+</p>
+<p>这个功能在想写一些自定义页面的时候比较好用，比如这个<a href="https://hsingko.github.io/bdc/">页面</a>就是用html写的，是一个抑郁症自测表，有兴趣的同学可以做一下看自己能得几分。</p>
+
+
+  
+  <footer>
+    <hr>
+    
+    <div class="post-tags">
+    
+      <i class="fas fa-tags"></i>
+      
+        <a href="/tags/hugo">hugo</a>
+        &nbsp;
+      
+    
+    </div>
+  </footer>
+  
+
+  
+
+<div class="releated-post">
+  <h3>Related Posts</h3>
+  
+  <i class="fas fa-paperclip"></i>
+  <a href="/post/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/">Hugo折腾笔记</a>
+  <br>
+  
+</div>
+
+
+  <div class="comments">
+
+
+
+</div>
+
+</article>
+
+
+
+  
+  
+  
+</body>
+<div class="foot">
+  
+  
+    &copy; 2020 - 2020 &#183; 
+    <a href="/">Home</a> · Theme <a href="https://github.com/RainerChiang/simpleness">Simpleness</a> Powered by <a href="https://gohugo.io/">Hugo</a> &#183;
+    <a href="#"><i class="fas fa-chevron-up"></i></a>
+  
+
+  
+</div>
+
+<script src="/js/lazyload.min.js"></script>
+<script>
+  var lazyImage = new LazyLoad({
+    container: document.getElementById('article')
+  });
+</script>
+
+
+</html>

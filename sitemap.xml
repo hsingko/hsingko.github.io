@@ -43,6 +43,21 @@
   </url>
   
   <url>
+    <loc>https://hsingko.github.io/tags/hugo/</loc>
+    <lastmod>2020-11-08T09:11:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/post/hugo-shortcodes/</loc>
+    <lastmod>2020-11-08T09:11:37+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/categories/notes/</loc>
+    <lastmod>2020-11-08T09:11:37+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hsingko.github.io/categories/gossip/</loc>
     <lastmod>2020-11-07T13:30:22+08:00</lastmod>
   </url>
@@ -59,11 +74,6 @@
   
   <url>
     <loc>https://hsingko.github.io/tags/blog/</loc>
-    <lastmod>2020-11-06T13:27:21+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hsingko.github.io/tags/hugo/</loc>
     <lastmod>2020-11-06T13:27:21+08:00</lastmod>
   </url>
   

@@ -1,37 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>notes on hsingko`s Blog</title>
+    <title>notes on hsingko</title>
     <link>https://hsingko.github.io/categories/notes/</link>
-    <description>Recent content in notes on hsingko`s Blog</description>
+    <description>Recent content in notes on hsingko</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>en</language>
+    <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
     <lastBuildDate>Sun, 08 Nov 2020 09:11:37 +0800</lastBuildDate><atom:link href="https://hsingko.github.io/categories/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Shortcode简介</title>
-      <link>https://hsingko.github.io/2020/hugo-shortcodes/</link>
+      <link>https://hsingko.github.io/post/hugo-shortcodes/</link>
       <pubDate>Sun, 08 Nov 2020 09:11:37 +0800</pubDate>
       
-      <guid>https://hsingko.github.io/2020/hugo-shortcodes/</guid>
-      <description>shortcodes其实就是hugo提供的一种增强markdown表现力的工具。 具体是什么东西没必要搞清楚，知道它能干什么就好，它可以： hu</description>
-    </item>
-    
-    <item>
-      <title>《内观》：结束痛苦的轮回</title>
-      <link>https://hsingko.github.io/2020/%E5%86%85%E8%A7%82/</link>
-      <pubDate>Sat, 07 Nov 2020 17:00:25 +0800</pubDate>
-      
-      <guid>https://hsingko.github.io/2020/%E5%86%85%E8%A7%82/</guid>
-      <description>本书是缅甸内观导师葛印卡教导的梗概，旨在让更多人了解到内观这一治疗身心痛苦的良药。 社会现象 痛苦的来源 解脱的方法 道路的终点</description>
-    </item>
-    
-    <item>
-      <title>《中间地带的革命》：第一次国共合作的背景</title>
-      <link>https://hsingko.github.io/2020/%E4%B8%AD%E9%97%B4%E5%9C%B0%E5%B8%A6%E7%9A%84%E9%9D%A9%E5%91%BD1/</link>
-      <pubDate>Sat, 07 Nov 2020 14:06:37 +0800</pubDate>
-      
-      <guid>https://hsingko.github.io/2020/%E4%B8%AD%E9%97%B4%E5%9C%B0%E5%B8%A6%E7%9A%84%E9%9D%A9%E5%91%BD1/</guid>
-      <description></description>
+      <guid>https://hsingko.github.io/post/hugo-shortcodes/</guid>
+      <description>shortcodes其实就是hugo提供的一种增强markdown表现力的工具。 hugo自带的shortcode 其实shortcode具体是</description>
     </item>
     
   </channel>

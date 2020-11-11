@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
-    <lastBuildDate>Fri, 06 Nov 2020 13:27:21 +0800</lastBuildDate><atom:link href="https://hsingko.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Nov 2020 09:11:37 +0800</lastBuildDate><atom:link href="https://hsingko.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Shortcode简介</title>
+      <link>https://hsingko.github.io/post/hugo-shortcodes/</link>
+      <pubDate>Sun, 08 Nov 2020 09:11:37 +0800</pubDate>
+      
+      <guid>https://hsingko.github.io/post/hugo-shortcodes/</guid>
+      <description>shortcodes其实就是hugo提供的一种增强markdown表现力的工具。 hugo自带的shortcode 其实shortcode具体是</description>
+    </item>
+    
     <item>
       <title>Hugo折腾笔记</title>
       <link>https://hsingko.github.io/post/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</link>
