@@ -53,14 +53,5 @@
       <description>又开始折腾起博客了，和大多数人一样，我已经折腾了好几次博客了。从wordpress到hexo、hugo，再到blogspot。现在又回归到了</description>
     </item>
     
-    <item>
-      <title>Hello World</title>
-      <link>https://hsingko.github.io/post/hello-world/</link>
-      <pubDate>Fri, 06 Nov 2020 13:21:31 +0800</pubDate>
-      
-      <guid>https://hsingko.github.io/post/hello-world/</guid>
-      <description>hello,world!</description>
-    </item>
-    
   </channel>
 </rss>

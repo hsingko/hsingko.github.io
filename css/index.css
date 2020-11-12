@@ -76,6 +76,10 @@ article a {
   color: #0000EE;
 }
 
+ul.archive a:visited{
+  color: #609;
+}
+
 header time {
   color: #8e8e91;
 }
