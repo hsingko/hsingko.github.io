@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.77.0" />
+
+  <title> 利用ublock origin去除知乎、bilibili上的搜索框广告 |  hsingko</title>
+  <meta name="description" content="I have no mouth, but I must scream.">
+  <link rel="stylesheet" href="https://hsingko.github.io/css/index.css">
+  <link rel="stylesheet" href="https://hsingko.github.io/css/classes.css">
+  <link rel="canonical" href="https://hsingko.github.io/post/fuck-ad/">
+  <link rel="alternate" type="application/rss+xml" href="" title="hsingko">
+  
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="menus">
+  
+
+  <nav >
+    
+    <a href="/"> Home</a>
+    
+    <a href="/bdc/"> BDC</a>
+    
+  </nav>
+
+  <nav class="fontawesome">
+    
+    
+    <a href="https://hsingko.github.io/index.xml" target="_blank">
+        <i title="RSS" class="fas fa-rss"></i>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="hidden description">I have no mouth, but I must scream.</div>
+  
+</header>
+
+<article id="article">
+  <header>
+  
+
+    <h1 style="text-align: center;" >利用ublock origin去除知乎、bilibili上的搜索框广告</h1>
+    
+    Written by <a itemprop="name" href="https://hsingko.github.io/" rel="author">hsingko</a> with ♥
+                <span class="post-time">
+                on <time datetime=2020-11-15 itemprop="datePublished">November 15, 2020</time>
+                </span>
+                in
+                
+                <i class="fas fa-folder"></i>
+                <span class="post-category">
+                        
+                        
+                        
+                          <a href="https://hsingko.github.io/categories/gossip/"> gossip, </a>
+                        
+                        
+                </span>
+                <span class="post-word-count">222 words</span>
+  </header>
+
+
+  <figure>
+    <img src="/images/ad/bilibili.png"/> 
+</figure>
+
+<figure>
+    <img src="/images/ad/zhihu.png"/> 
+</figure>
+
+<p>真不知道是哪个天才想出来的，居然在搜索框里放广告，每次想要搜点什么东西就得捏着鼻子看网站的弱智推广。今天终于忍不了了，决定想办法把这些狗皮癣给干掉。</p>
+<p>google了一番之后，参考了这两个帖子<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>,终于成功地用ublock origin把两个站的广告给屏蔽了。</p>
+<p>用法：在ublock origin的My Filters中添加如下两行代码</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">www.zhihu.com##input.Input::-webkit-input-placeholder:style(color: transparent !important)
+www.bilibili.com##input.nav-search-keyword::-webkit-input-placeholder:style(color: transparent !important)
+
+</code></pre></div><figure>
+    <img src="/images/ad/ublock.png"/> 
+</figure>
+
+<p>效果：</p>
+<figure>
+    <img src="/images/ad/bilibili2.png"/> 
+</figure>
+
+<figure>
+    <img src="/images/ad/zhihu2.png"/> 
+</figure>
+
+<p>也可以用Stylus插件，不过秉承着“如无必要，勿增实体”的原则，我还是喜欢直接用现成的插件。</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://bbs.saraba1st.com/2b/thread-1955259-1-1.html">https://bbs.saraba1st.com/2b/thread-1955259-1-1.html</a> <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p><a href="https://www.v2ex.com/t/649723">https://www.v2ex.com/t/649723</a> <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+
+  
+  <footer>
+    <hr>
+    
+    <div class="post-tags">
+    
+      <i class="fas fa-tags"></i>
+      
+        <a href="/tags/ad">ad</a>
+        &nbsp;
+      
+        <a href="/tags/chrome">chrome</a>
+        &nbsp;
+      
+    
+    </div>
+  </footer>
+  
+
+  
+
+
+  <div class="comments">
+
+
+
+</div>
+
+</article>
+
+
+
+  
+  
+  
+</body>
+<div class="foot">
+  
+  
+    &copy; 2020 - 2020 &#183; 
+    <a href="/">Home</a> · Theme <a href="https://github.com/RainerChiang/simpleness">Simpleness</a> Powered by <a href="https://gohugo.io/">Hugo</a> &#183;
+    <a href="#"><i class="fas fa-chevron-up"></i></a>
+  
+
+  
+</div>
+
+<script src="/js/lazyload.min.js"></script>
+<script>
+  var lazyImage = new LazyLoad({
+    container: document.getElementById('article')
+  });
+</script>
+
+
+</html>

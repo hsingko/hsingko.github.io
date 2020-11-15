@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chrome on hsingko</title>
+    <link>https://hsingko.github.io/tags/chrome/</link>
+    <description>Recent content in chrome on hsingko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
+    <lastBuildDate>Sun, 15 Nov 2020 16:48:13 +0800</lastBuildDate><atom:link href="https://hsingko.github.io/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>利用ublock origin去除知乎、bilibili上的搜索框广告</title>
+      <link>https://hsingko.github.io/post/fuck-ad/</link>
+      <pubDate>Sun, 15 Nov 2020 16:48:13 +0800</pubDate>
+      
+      <guid>https://hsingko.github.io/post/fuck-ad/</guid>
+      <description>真不知道是哪个天才想出来的，居然在搜索框里放广告，每次想要搜点什么东西就得捏着鼻子看网站的弱智推广。今天终于忍不了了，决定想办法把这些狗皮癣</description>
+    </item>
+    
+  </channel>
+</rss>

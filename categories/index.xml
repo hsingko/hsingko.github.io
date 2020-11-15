@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
-    <lastBuildDate>Tue, 10 Nov 2020 09:49:02 +0800</lastBuildDate><atom:link href="https://hsingko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Nov 2020 16:48:13 +0800</lastBuildDate><atom:link href="https://hsingko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gossip</title>
+      <link>https://hsingko.github.io/categories/gossip/</link>
+      <pubDate>Sun, 15 Nov 2020 16:48:13 +0800</pubDate>
+      
+      <guid>https://hsingko.github.io/categories/gossip/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>review</title>
       <link>https://hsingko.github.io/categories/review/</link>
@@ -23,15 +32,6 @@
       <pubDate>Sun, 08 Nov 2020 09:11:37 +0800</pubDate>
       
       <guid>https://hsingko.github.io/categories/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gossip</title>
-      <link>https://hsingko.github.io/categories/gossip/</link>
-      <pubDate>Sat, 07 Nov 2020 13:30:22 +0800</pubDate>
-      
-      <guid>https://hsingko.github.io/categories/gossip/</guid>
       <description></description>
     </item>
     
