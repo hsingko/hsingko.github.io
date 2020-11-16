@@ -72,10 +72,10 @@
 <p>其实shortcode具体是什么东西没必要搞清楚，知道它能干什么就好，它可以：</p>
 <h3 id="1插入视频">1.插入视频</h3>
 <p>目前支持vimeo，youtube。以youtube为例，比如你想要分享链接</p>
-<pre><code>https://www.youtube.com/watch?v=CDtQ3rai9Ks
-</code></pre><p>那么只要在markdown中输入：</p>
-<pre><code>{{&lt; youtube CDtQ3rai9Ks &gt;}}
-</code></pre><p>效果：
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">https://www.youtube.com/watch?v=CDtQ3rai9Ks
+</code></pre></div><p>那么只要在markdown中输入：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt; <span style="color:#ff79c6">youtube</span> <span style="color:#50fa7b">CDtQ3rai9Ks</span> &gt;}}
+</code></pre></div><p>效果：
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/CDtQ3rai9Ks" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
@@ -83,8 +83,8 @@
 </p>
 <h3 id="2插入图片">2.插入图片</h3>
 <p>这个功能不怎么有用，还不如markdown的简洁。唯一的优点是可以自定义图片的长宽。</p>
-<pre><code>{{&lt; figure src=&quot;/images/cyberpunk/cyberpunk.jpg&quot; title=&quot;cyberpunk&quot; height=800 width=600 &gt;}}
-</code></pre><p>效果：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt; <span style="color:#ff79c6">figure</span> <span style="color:#50fa7b">src</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;/images/cyberpunk/cyberpunk.jpg&#34;</span> <span style="color:#50fa7b">title</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;cyberpunk&#34;</span> <span style="color:#50fa7b">height</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">800</span> <span style="color:#50fa7b">width</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">600</span> &gt;}}
+</code></pre></div><p>效果：</p>
 <figure>
     <img src="/images/cyberpunk/cyberpunk.jpg" width="600" height="800"/> <figcaption>
             <h4>cyberpunk</h4>
@@ -93,10 +93,10 @@
 
 <h3 id="3插入gist">3.插入gist</h3>
 <p>目标：</p>
-<pre><code class="language-url" data-lang="url">https://gist.github.com/spf13/7896402
-</code></pre><p>shortcode:</p>
-<pre><code>{{&lt; gist spf13 7896402 &gt;}}
-</code></pre><p>效果：
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">https://gist.github.com/spf13/7896402
+</code></pre></div><p>shortcode:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt; <span style="color:#ff79c6">gist</span> <span style="color:#50fa7b">spf13</span> <span style="color:#50fa7b">7896402</span> &gt;}}
+</code></pre></div><p>效果：
 <script type="application/javascript" src="https://gist.github.com/spf13/7896402.js"></script>
 </p>
 <h3 id="4插入shortcode">4.插入&quot;shortcode&quot;</h3>
@@ -105,31 +105,31 @@
 
 <h2 id="你也可以自己编写抄袭shortcode">你也可以自己编写(抄袭)shortcode</h2>
 <p>作为我这种资深伸手党兼菜鸡码农，代码自然是能抄就抄，很多功能丰富的模板都自带了一些好用的shortcode，我们只要知道从那里copy就可以了。目录是在：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">themes/&lt;victim-theme&gt;/layouts/shortcodes/*
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">themes/&lt;victim-theme&gt;/layouts/shortcodes/*
 </code></pre></div><p>文件名自然就是shortcode的代码了，下面介绍一些比较有用的功能。</p>
 <h3 id="示例插入html">示例：插入html</h3>
 <p>在shortcodes目录下新增如下文件：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!--shortcodes/rawhtml.html--&gt;</span>
-<span style="color:#75715e">&lt;!-- raw html --&gt;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#6272a4">&lt;!--shortcodes/rawhtml.html--&gt;</span>
+<span style="color:#6272a4">&lt;!-- raw html --&gt;</span>
 {{.Inner}}
 </code></pre></div><p>这样我们就拥有了一个名为{{rawhtml}}的shortcode，可以在这个标签内直接写入html代码。</p>
 <p>代码：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt; <span style="color:#f92672">rawhtml</span> &gt;}}
-&lt;<span style="color:#f92672">div</span>&gt;
-   &lt;<span style="color:#f92672">style</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/css&#34;</span> <span style="color:#a6e22e">scoped</span>&gt;
-       <span style="color:#f92672">button</span> { <span style="color:#66d9ef">color</span>: <span style="color:#66d9ef">green</span>; } 
-   &lt;/<span style="color:#f92672">style</span>&gt;
-   &lt;<span style="color:#f92672">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/javascript&#34;</span>&gt;
-      <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">clicks</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-      <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">onClick</span>() {
-          <span style="color:#a6e22e">clicks</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>;
-          document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;clicks&#34;</span>).<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">clicks</span>;
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{&lt; <span style="color:#ff79c6">rawhtml</span> &gt;}}
+&lt;<span style="color:#ff79c6">div</span>&gt;
+   &lt;<span style="color:#ff79c6">style</span> <span style="color:#50fa7b">type</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;text/css&#34;</span> <span style="color:#50fa7b">scoped</span>&gt;
+       <span style="color:#ff79c6">button</span> { <span style="color:#ff79c6">color</span>: <span style="color:#ff79c6">green</span>; } 
+   &lt;/<span style="color:#ff79c6">style</span>&gt;
+   &lt;<span style="color:#ff79c6">script</span> <span style="color:#50fa7b">type</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;text/javascript&#34;</span>&gt;
+      <span style="color:#8be9fd;font-style:italic">var</span> clicks <span style="color:#ff79c6">=</span> <span style="color:#bd93f9">0</span>;
+      <span style="color:#8be9fd;font-style:italic">function</span> onClick() {
+          clicks <span style="color:#ff79c6">+=</span> <span style="color:#bd93f9">1</span>;
+          <span style="color:#8be9fd;font-style:italic">document</span>.getElementById(<span style="color:#f1fa8c">&#34;clicks&#34;</span>).innerHTML <span style="color:#ff79c6">=</span> clicks;
       };
-   &lt;/<span style="color:#f92672">script</span>&gt;
-   &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span> <span style="color:#a6e22e">onClick</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;onClick()&#34;</span>&gt;Click me&lt;/<span style="color:#f92672">button</span>&gt;
-   &lt;<span style="color:#f92672">p</span>&gt;Clicks: &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;clicks&#34;</span>&gt;0&lt;/<span style="color:#f92672">a</span>&gt;&lt;/<span style="color:#f92672">p</span>&gt;
-&lt;/<span style="color:#f92672">div</span>&gt;
-{{&lt; /<span style="color:#f92672">rawhtml</span> &gt;}}
+   &lt;/<span style="color:#ff79c6">script</span>&gt;
+   &lt;<span style="color:#ff79c6">button</span> <span style="color:#50fa7b">type</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;button&#34;</span> <span style="color:#50fa7b">onClick</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;onClick()&#34;</span>&gt;Click me&lt;/<span style="color:#ff79c6">button</span>&gt;
+   &lt;<span style="color:#ff79c6">p</span>&gt;Clicks: &lt;<span style="color:#ff79c6">a</span> <span style="color:#50fa7b">id</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;clicks&#34;</span>&gt;0&lt;/<span style="color:#ff79c6">a</span>&gt;&lt;/<span style="color:#ff79c6">p</span>&gt;
+&lt;/<span style="color:#ff79c6">div</span>&gt;
+{{&lt; /<span style="color:#ff79c6">rawhtml</span> &gt;}}
 </code></pre></div><p>效果：
 
 

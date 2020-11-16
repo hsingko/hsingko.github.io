@@ -78,9 +78,8 @@
 <p>真不知道是哪个天才想出来的，居然在搜索框里放广告，每次想要搜点什么东西就得捏着鼻子看网站的弱智推广。今天终于忍不了了，决定想办法把这些狗皮癣给干掉。</p>
 <p>google了一番之后，参考了这两个帖子<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>,终于成功地用ublock origin把两个站的广告给屏蔽了。</p>
 <p>用法：在ublock origin的My Filters中添加如下两行代码</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">www.zhihu.com##input.Input::-webkit-input-placeholder:style(color: transparent !important)
-www.bilibili.com##input.nav-search-keyword::-webkit-input-placeholder:style(color: transparent !important)
-
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#ff79c6">www</span>.<span style="color:#50fa7b">zhihu</span>.<span style="color:#50fa7b">com</span>##input.<span style="color:#50fa7b">Input</span>::-webkit-input-placeholder:style<span style="color:#ff79c6">(</span><span style="color:#ff79c6">color</span><span style="color:#ff79c6">:</span> <span style="color:#ff79c6">transparent</span> <span style="color:#ff79c6">!</span><span style="color:#ff79c6">important</span><span style="color:#ff79c6">)</span>
+<span style="color:#ff79c6">www</span>.<span style="color:#50fa7b">bilibili</span>.<span style="color:#50fa7b">com</span>##input.<span style="color:#50fa7b">nav-search-keyword</span>::-webkit-input-placeholder:style<span style="color:#ff79c6">(</span><span style="color:#ff79c6">color</span><span style="color:#ff79c6">:</span> <span style="color:#ff79c6">transparent</span> <span style="color:#ff79c6">!</span><span style="color:#ff79c6">important</span><span style="color:#ff79c6">)</span>
 </code></pre></div><figure>
     <img src="/images/fuckad/ublock.png"/> 
 </figure>
