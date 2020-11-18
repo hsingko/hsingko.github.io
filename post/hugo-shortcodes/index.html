@@ -14,6 +14,10 @@
   
   
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 </head>
 
 <body>
@@ -180,11 +184,22 @@
 </div>
 
 
-  <div class="comments">
+  
+  <div id="gitalk-container"></div>
+<script>
+    const gitalk = new Gitalk({
+        clientID: '9d2fa16a39e692a14ed4',
+        clientSecret: '66ccf3e9158d9a8ed09637bcff0cd9ee47204413',
+        repo: 'gittalk',      
+        owner: 'hsingko',
+        admin: ['hsingko'],
+        id: location.pathname,      
+        distractionFreeMode: false  
+    })
 
+    gitalk.render('gitalk-container')
 
-
-</div>
+</script>
 
 </article>
 
