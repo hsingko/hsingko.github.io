@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="generator" content="Hugo 0.77.0" />
+  <meta name="generator" content="Hugo 0.79.0" />
 
   <title> 利用ublock origin去除知乎、bilibili上的搜索框广告 |  涂雨期的博客</title>
   <meta name="description" content="I have no mouth, but I must scream.">
@@ -67,7 +67,7 @@
                         
                         
                 </span>
-                <span class="post-word-count">222 words</span>
+                <span class="post-word-count">224 words</span>
   </header>
 
 
@@ -82,9 +82,17 @@
 <p>真不知道是哪个天才想出来的，居然在搜索框里放广告，每次想要搜点什么东西就得捏着鼻子看网站的弱智推广。今天终于忍不了了，决定想办法把这些狗皮癣给干掉。</p>
 <p>google了一番之后，参考了这两个帖子<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>,终于成功地用ublock origin把两个站的广告给屏蔽了。</p>
 <p>用法：在ublock origin的My Filters中添加如下两行代码</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#ff79c6">www</span>.<span style="color:#50fa7b">zhihu</span>.<span style="color:#50fa7b">com</span>##input.<span style="color:#50fa7b">Input</span>::-webkit-input-placeholder:style<span style="color:#ff79c6">(</span><span style="color:#ff79c6">color</span><span style="color:#ff79c6">:</span> <span style="color:#ff79c6">transparent</span> <span style="color:#ff79c6">!</span><span style="color:#ff79c6">important</span><span style="color:#ff79c6">)</span>
-<span style="color:#ff79c6">www</span>.<span style="color:#50fa7b">bilibili</span>.<span style="color:#50fa7b">com</span>##input.<span style="color:#50fa7b">nav-search-keyword</span>::-webkit-input-placeholder:style<span style="color:#ff79c6">(</span><span style="color:#ff79c6">color</span><span style="color:#ff79c6">:</span> <span style="color:#ff79c6">transparent</span> <span style="color:#ff79c6">!</span><span style="color:#ff79c6">important</span><span style="color:#ff79c6">)</span>
-</code></pre></div><figure>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#000080">www</span>.<span style="color:#458;font-weight:bold">zhihu</span>.<span style="color:#458;font-weight:bold">com</span><span style="color:#a61717;background-color:#e3d2d2">#</span>#<span style="color:#555">input</span>.<span style="color:#458;font-weight:bold">Input</span>::<span style="color:#3c5d5d;font-weight:bold">-webkit-input-placeholder</span>:<span style="color:#3c5d5d;font-weight:bold">style</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000080">color</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000080">transparent</span> <span style="color:#000;font-weight:bold">!</span><span style="color:#000080">important</span><span style="color:#000;font-weight:bold">)</span>
+<span style="color:#000080">www</span>.<span style="color:#458;font-weight:bold">bilibili</span>.<span style="color:#458;font-weight:bold">com</span><span style="color:#a61717;background-color:#e3d2d2">#</span>#<span style="color:#555">input</span>.<span style="color:#458;font-weight:bold">nav-search-keyword</span>::<span style="color:#3c5d5d;font-weight:bold">-webkit-input-placeholder</span>:<span style="color:#3c5d5d;font-weight:bold">style</span><span style="color:#000;font-weight:bold">(</span><span style="color:#000080">color</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#000080">transparent</span> <span style="color:#000;font-weight:bold">!</span><span style="color:#000080">important</span><span style="color:#000;font-weight:bold">)</span>
+</code></pre></td></tr></table>
+</div>
+</div><figure>
     <img src="/images/fuckad/ublock.png"/> 
 </figure>
 

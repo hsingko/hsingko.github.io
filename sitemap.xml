@@ -3,12 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hsingko.github.io/tags/ad/</loc>
-    <lastmod>2020-11-15T16:48:13+08:00</lastmod>
+    <loc>https://hsingko.github.io/categories/</loc>
+    <lastmod>2020-12-17T19:51:22+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hsingko.github.io/categories/</loc>
+    <loc>https://hsingko.github.io/tags/emacs/</loc>
+    <lastmod>2020-12-17T19:51:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/categories/linux/</loc>
+    <lastmod>2020-12-17T19:51:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/post/</loc>
+    <lastmod>2020-12-17T19:51:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/tags/rime/</loc>
+    <lastmod>2020-12-17T19:51:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/tags/</loc>
+    <lastmod>2020-12-17T19:51:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/post/%E5%9C%A8doom_emacs%E4%B8%AD%E5%AE%89%E8%A3%85emacs-rime/</loc>
+    <lastmod>2020-12-17T19:51:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/</loc>
+    <lastmod>2020-12-17T19:51:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/tags/ad/</loc>
     <lastmod>2020-11-15T16:48:13+08:00</lastmod>
   </url>
   
@@ -23,22 +58,7 @@
   </url>
   
   <url>
-    <loc>https://hsingko.github.io/post/</loc>
-    <lastmod>2020-11-15T16:48:13+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hsingko.github.io/tags/</loc>
-    <lastmod>2020-11-15T16:48:13+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hsingko.github.io/post/fuck-ad/</loc>
-    <lastmod>2020-11-15T16:48:13+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hsingko.github.io/</loc>
     <lastmod>2020-11-15T16:48:13+08:00</lastmod>
   </url>
   

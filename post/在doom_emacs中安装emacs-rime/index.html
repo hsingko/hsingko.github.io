@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="Hugo 0.79.0" />
+
+  <title> 在doom emacs中安装emacs-rime |  涂雨期的博客</title>
+  <meta name="description" content="I have no mouth, but I must scream.">
+  <link rel="stylesheet" href="https://hsingko.github.io/css/index.css">
+  <link rel="stylesheet" href="https://hsingko.github.io/css/classes.css">
+  <link rel="canonical" href="https://hsingko.github.io/post/%E5%9C%A8doom_emacs%E4%B8%AD%E5%AE%89%E8%A3%85emacs-rime/">
+  <link rel="alternate" type="application/rss+xml" href="" title="涂雨期的博客">
+  
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+</head>
+
+<body>
+  <header class="menus">
+  
+
+  <nav >
+    
+    <a href="/"> Home</a>
+    
+    <a href="/bdc/"> BDC</a>
+    
+  </nav>
+
+  <nav class="fontawesome">
+    
+    
+    <a href="https://hsingko.github.io/index.xml" target="_blank">
+        <i title="RSS" class="fas fa-rss"></i>
+    </a>
+    
+  </nav>
+  
+  
+  <div class="hidden description">I have no mouth, but I must scream.</div>
+  
+</header>
+
+<article id="article">
+  <header>
+  
+
+    <h1 style="text-align: center;" >在doom emacs中安装emacs-rime</h1>
+    
+    Written by <a itemprop="name" href="https://hsingko.github.io/" rel="author">涂雨期</a> with ♥
+                <span class="post-time">
+                on <time datetime=2020-12-17 itemprop="datePublished">December 17, 2020</time>
+                </span>
+                in
+                
+                <i class="fas fa-folder"></i>
+                <span class="post-category">
+                        
+                        
+                        
+                          <a href="https://hsingko.github.io/categories/linux/"> linux, </a>
+                        
+                        
+                </span>
+                <span class="post-word-count">857 words</span>
+  </header>
+
+
+  <p>最近看了《子弹笔记法》，又想要折腾GTD工作法了。为什么起这个念头呢？那是因为2020都快结束了，而年初的计划根本就没有实现啊，感觉又白白浪费了一年，而我的青春已经所剩无几了（甚至到了连说“青春”两个字都要厚着脸皮的地步）。看了这本书之后，我决心要通过一个外部的系统来强迫自己去做事情，不然由着自己性子的话，必定一事无成。</p>
+<p>而说到GTD，那就不得不提伟大的orgmode了，那篇伟大的<a href="http://doc.norang.ca/org-mode.html">Org Mode - Organize Your Life In Plain Text!</a>相信每一个程序员都看过，但是真正实践起来的却寥寥无几，这不仅仅是因为emacs的上手难度，更是因为在emacs里中文输入非常繁琐，根本爽不起来。今天偶然看到<a href="https://github.com/DogLooksGood/emacs-rime">emacs-rime</a>这个项目，原来已经有先行者解决了我们的痛点！于是一点也不懂lisp的我（翻过几章SICP早就忘了）鼓起勇气决定挑战这座大山。</p>
+<h2 id="使用环境">使用环境</h2>
+<p>OS: Manjaro 20.2 Nibia</p>
+<p>emacs配置：<a href="https://github.com/hlissner/doom-emacs">DOOM</a></p>
+<h2 id="安装emacs-rime">安装emacs-rime</h2>
+<p>如果本机没有rime的，要先安装librime。</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#998;font-style:italic">;~/.doom.d/packages.el最后一行添加：</span>
+(<span style="color:#008080">package!</span> <span style="color:#008080">rime</span>)
+</code></pre></td></tr></table>
+</div>
+</div><p>然后在命令行执行：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">~/.emacs.d/bin/doom sync
+</code></pre></td></tr></table>
+</div>
+</div><p>然后启动emacs，在任意文本编辑界面输入ctrl+\就可以调出rime输入中文了，再按一次ctrl+\就能切换回英文输入。</p>
+<h2 id="emacs-rime配置">emacs-rime配置</h2>
+<p>默认的候选词是在窗口底部显示的，太蛋疼了。</p>
+<p><img src="/images/emacs/emacs1.gif" alt="emacs-rime"></p>
+<p>我们可以通过posframe来悬浮显示（posframe已经在doom中内置了）。</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#998;font-style:italic">; ~/.doom.d/config.el最后一行添加：</span>
+(<span style="color:#000;font-weight:bold">setq</span> <span style="color:#008080">rime-show-candidate</span> <span style="color:#990073">&#39;posframe</span>)
+</code></pre></td></tr></table>
+</div>
+</div><p>现在输入法开始变得酷炫起来了。
+<img src="/images/emacs/emacs2.gif" alt="emacs-rime"></p>
+<h2 id="输入法配置切换简体双拼">输入法配置：切换简体、双拼</h2>
+<p>输入<code>alt+x rime-select-schema</code>可以切换输入方案，如果你平时就在使用rime，你会发现emacs-rime的配置和你在用的不一样？！原来emacs-rime自带了一套配置，文件位置是在：<code>~/.emacs.d/.local/etc/rime</code>目录下，你可以把你的配置文件整个拷贝到这个目录下。</p>
+<h2 id="总结">总结</h2>
+<p>一番调教之后emacs已经变得很适合中文用户使用了，接下来已经没什么能阻挡我学习orgmode了！</p>
+
+
+  
+  <footer>
+    <hr>
+    
+    <div class="post-tags">
+    
+      <i class="fas fa-tags"></i>
+      
+        <a href="/tags/rime">rime</a>
+        &nbsp;
+      
+        <a href="/tags/emacs">emacs</a>
+        &nbsp;
+      
+    
+    </div>
+  </footer>
+  
+
+  
+
+
+  
+  <div id="gitalk-container"></div>
+<script>
+    const gitalk = new Gitalk({
+        clientID: '9d2fa16a39e692a14ed4',
+        clientSecret: '66ccf3e9158d9a8ed09637bcff0cd9ee47204413',
+        repo: 'gittalk',      
+        owner: 'hsingko',
+        admin: ['hsingko'],
+        id: decodeURI(location.pathname),      
+        distractionFreeMode: false  
+    })
+
+    gitalk.render('gitalk-container')
+
+</script>
+
+</article>
+
+
+
+  
+  
+  
+</body>
+<div class="foot">
+  
+  
+    &copy; 2020 - 2020 &#183; 
+    <a href="/">Home</a> · Theme <a href="https://github.com/RainerChiang/simpleness">Simpleness</a> Powered by <a href="https://gohugo.io/">Hugo</a> &#183;
+    <a href="#"><i class="fas fa-chevron-up"></i></a>
+  
+
+  
+</div>
+
+<script src="/js/lazyload.min.js"></script>
+<script>
+  var lazyImage = new LazyLoad({
+    container: document.getElementById('article')
+  });
+</script>
+
+
+</html>
