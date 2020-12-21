@@ -1,48 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Categories on 涂雨期的博客</title>
     <link>https://hsingko.github.io/categories/</link>
     <description>Recent content in Categories on 涂雨期的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
-    <lastBuildDate>Thu, 17 Dec 2020 19:51:22 +0800</lastBuildDate><atom:link href="https://hsingko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>linux</title>
-      <link>https://hsingko.github.io/categories/linux/</link>
-      <pubDate>Thu, 17 Dec 2020 19:51:22 +0800</pubDate>
-      
-      <guid>https://hsingko.github.io/categories/linux/</guid>
-      <description></description>
-    </item>
+    <managingEditor>hsingko@outlook.com (涂雨期)</managingEditor>
+    <webMaster>hsingko@outlook.com (涂雨期)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 17 Dec 2020 19:51:22 +0800</lastBuildDate>
     
-    <item>
-      <title>gossip</title>
-      <link>https://hsingko.github.io/categories/gossip/</link>
-      <pubDate>Sun, 15 Nov 2020 16:48:13 +0800</pubDate>
-      
-      <guid>https://hsingko.github.io/categories/gossip/</guid>
-      <description></description>
-    </item>
+        <atom:link href="https://hsingko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    <item>
-      <title>review</title>
-      <link>https://hsingko.github.io/categories/review/</link>
-      <pubDate>Tue, 10 Nov 2020 09:49:02 +0800</pubDate>
-      
-      <guid>https://hsingko.github.io/categories/review/</guid>
-      <description></description>
-    </item>
     
-    <item>
-      <title>notes</title>
-      <link>https://hsingko.github.io/categories/notes/</link>
-      <pubDate>Sun, 08 Nov 2020 09:11:37 +0800</pubDate>
+    
+
       
-      <guid>https://hsingko.github.io/categories/notes/</guid>
-      <description></description>
-    </item>
+      <item>
+        <title>linux</title>
+        <link>https://hsingko.github.io/categories/linux/</link>
+        <pubDate>Thu, 17 Dec 2020 19:51:22 +0800</pubDate>
+        <author>hsingko@outlook.com (涂雨期)</author>
+        
+        <guid>https://hsingko.github.io/categories/linux/</guid>
+        <description></description>
+        
+        <dc:creator>涂雨期</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>gossip</title>
+        <link>https://hsingko.github.io/categories/gossip/</link>
+        <pubDate>Sun, 15 Nov 2020 16:48:13 +0800</pubDate>
+        <author>hsingko@outlook.com (涂雨期)</author>
+        
+        <guid>https://hsingko.github.io/categories/gossip/</guid>
+        <description></description>
+        
+        <dc:creator>涂雨期</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>review</title>
+        <link>https://hsingko.github.io/categories/review/</link>
+        <pubDate>Tue, 10 Nov 2020 09:49:02 +0800</pubDate>
+        <author>hsingko@outlook.com (涂雨期)</author>
+        
+        <guid>https://hsingko.github.io/categories/review/</guid>
+        <description></description>
+        
+        <dc:creator>涂雨期</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>notes</title>
+        <link>https://hsingko.github.io/categories/notes/</link>
+        <pubDate>Sun, 08 Nov 2020 09:11:37 +0800</pubDate>
+        <author>hsingko@outlook.com (涂雨期)</author>
+        
+        <guid>https://hsingko.github.io/categories/notes/</guid>
+        <description></description>
+        
+        <dc:creator>涂雨期</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
     
   </channel>
 </rss>

@@ -1,21 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>manga on 涂雨期的博客</title>
     <link>https://hsingko.github.io/tags/manga/</link>
     <description>Recent content in manga on 涂雨期的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>[Home](/) &amp;#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)</copyright>
-    <lastBuildDate>Tue, 10 Nov 2020 09:49:02 +0800</lastBuildDate><atom:link href="https://hsingko.github.io/tags/manga/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>现在在追的漫画</title>
-      <link>https://hsingko.github.io/post/manga/</link>
-      <pubDate>Tue, 10 Nov 2020 09:49:02 +0800</pubDate>
+    <managingEditor>hsingko@outlook.com (涂雨期)</managingEditor>
+    <webMaster>hsingko@outlook.com (涂雨期)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 10 Nov 2020 09:49:02 +0800</lastBuildDate>
+    
+        <atom:link href="https://hsingko.github.io/tags/manga/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
       
-      <guid>https://hsingko.github.io/post/manga/</guid>
-      <description>生活已经如此艰难，所以我们就一起来看轻松愉快的漫画吧。 日常类 《伯纳德小姐说》 作者：施川汤雨期 没错，封面上这个一脸呆样的家伙就是漫画的主人公伯</description>
-    </item>
+      <item>
+        <title>现在在追的漫画</title>
+        <link>https://hsingko.github.io/post/manga/</link>
+        <pubDate>Tue, 10 Nov 2020 09:49:02 +0800</pubDate>
+        <author>hsingko@outlook.com (涂雨期)</author>
+        <atom:modified>Tue, 10 Nov 2020 09:49:02 +0800</atom:modified>
+        <guid>https://hsingko.github.io/post/manga/</guid>
+        <description>生活已经如此艰难，所以我们就一起来看轻松愉快的漫画吧。 日常类 《伯纳德小姐说》 作者：施川汤雨期 没错，封面上这个一脸呆样的家伙就是漫画的主人公伯</description>
+        
+        <dc:creator>涂雨期</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>manga</category>
+            
+          
+        
+        
+          
+            
+              <category>review</category>
+            
+          
+        
+        
+      </item>
+      
+
     
   </channel>
 </rss>

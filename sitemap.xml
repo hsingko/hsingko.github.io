@@ -78,11 +78,6 @@
   </url>
   
   <url>
-    <loc>https://hsingko.github.io/bdc/</loc>
-    <lastmod>2020-11-08T09:11:37+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hsingko.github.io/tags/hugo/</loc>
     <lastmod>2020-11-08T09:11:37+08:00</lastmod>
   </url>
@@ -120,6 +115,15 @@
   <url>
     <loc>https://hsingko.github.io/tags/it/</loc>
     <lastmod>2020-11-06T13:27:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/archive/</loc>
+    <lastmod>2019-10-19T11:44:14+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/series/</loc>
   </url>
   
 </urlset>
