@@ -14,7 +14,7 @@
     <managingEditor>hsingko@outlook.com (涂雨期)</managingEditor>
     <webMaster>hsingko@outlook.com (涂雨期)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 17 Dec 2020 19:51:22 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 23 Dec 2020 10:17:41 +0800</lastBuildDate>
     
         <atom:link href="https://hsingko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,10 +25,28 @@
       <item>
         <title>emacs</title>
         <link>https://hsingko.github.io/tags/emacs/</link>
-        <pubDate>Thu, 17 Dec 2020 19:51:22 +0800</pubDate>
+        <pubDate>Wed, 23 Dec 2020 10:17:41 +0800</pubDate>
         <author>hsingko@outlook.com (涂雨期)</author>
         
         <guid>https://hsingko.github.io/tags/emacs/</guid>
+        <description></description>
+        
+        <dc:creator>涂雨期</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>orgmode</title>
+        <link>https://hsingko.github.io/tags/orgmode/</link>
+        <pubDate>Wed, 23 Dec 2020 10:17:41 +0800</pubDate>
+        <author>hsingko@outlook.com (涂雨期)</author>
+        
+        <guid>https://hsingko.github.io/tags/orgmode/</guid>
         <description></description>
         
         <dc:creator>涂雨期</dc:creator>

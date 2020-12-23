@@ -14,13 +14,41 @@
     <managingEditor>hsingko@outlook.com (涂雨期)</managingEditor>
     <webMaster>hsingko@outlook.com (涂雨期)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 17 Dec 2020 19:51:22 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 23 Dec 2020 10:17:41 +0800</lastBuildDate>
     
         <atom:link href="https://hsingko.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>emacs使用笔记</title>
+        <link>https://hsingko.github.io/post/orgmode/</link>
+        <pubDate>Wed, 23 Dec 2020 10:17:41 +0800</pubDate>
+        <author>hsingko@outlook.com (涂雨期)</author>
+        <atom:modified>Wed, 23 Dec 2020 10:17:41 +0800</atom:modified>
+        <guid>https://hsingko.github.io/post/orgmode/</guid>
+        <description>使用emacs+orgmode已经一段时间了，用起来确实很爽，orgmode比起todoist强得多，以后就决定用这个来实践GTD工作法了，</description>
+        
+        <dc:creator>涂雨期</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>emacs</category>
+            
+          
+            
+              <category>orgmode</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>在doom emacs中安装emacs-rime</title>
