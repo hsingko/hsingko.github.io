@@ -1721,6 +1721,16 @@
 <p><img src="/images/emacs/emacs2.gif" alt="emacs-rime" /></p>
 <h2 id="输入法配置切换简体双拼">输入法配置：切换简体、双拼</h2>
 <p>输入<code>alt+x rime-select-schema</code>可以切换输入方案，如果你平时就在使用rime，你会发现emacs-rime的配置和你在用的不一样？！原来emacs-rime自带了一套配置，文件位置是在：<code>~/.emacs.d/.local/etc/rime</code>目录下，你可以把你的配置文件整个拷贝到这个目录下。</p>
+<p>也可以在config.el中加入设置：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-lisp" data-lang="lisp"><span class="p">(</span><span class="k">setq</span> <span class="nv">rime-user-data-dir</span> <span class="s">&#34;~/.local/share/fcitx5/rime&#34;</span><span class="p">)</span> <span class="c1">;改成所需的目录</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>但是如果是这样设置会导致无法使用用户词库，也不知道什么原因，所以我还是用的还是拷贝文件的形式，然后用定时执行rime-sync进行词库同步。</p>
 <h2 id="总结">总结</h2>
 <p>一番调教之后emacs已经变得很适合中文用户使用了，接下来已经没什么能阻挡我学习orgmode了！</p>
 
