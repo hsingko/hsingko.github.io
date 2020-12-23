@@ -1658,7 +1658,7 @@
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Dec 23, 2020 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;3&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;4&nbsp;min read </span>
   
   <span class="single__info">
     
@@ -1814,7 +1814,7 @@ D.中文处理
 表格等宽设置
 </h3>
 <div id="outline-text-headline-12" class="outline-text-3">
-<p>普通的中文字体和英文并不等宽，这就导致orgmode中的表格看起来都很难看，可以用两种方法解决：一种是使用严格中英文等宽字体，另一种就是用 <code>cnfonts</code> 进行自动校准。</p>
+<p>普通的中文字体和英文并不等宽，这就导致orgmode中的表格看起来都很难看，可以用3种方法解决：一种是使用严格中英文等宽字体，另一种就是用 <code>cnfonts</code> 进行自动校准，最后就是单独设置表格的字体。</p>
 <div id="outline-container-headline-13" class="outline-4">
 <h4 id="headline-13">
 1.使用等宽字体
@@ -1846,19 +1846,41 @@ D.中文处理
 </div>
 <div id="outline-container-headline-15" class="outline-4">
 <h4 id="headline-15">
-3. 如果用了cnfonts，就不要用额外的对齐工具
+3. 单独设置表格字体
 </h4>
 <div id="outline-text-headline-15" class="outline-text-4">
-<p>使用cnfonts的理由是操作简单，当然也存在其他的对齐方法，比如单独设置表格的中文字体，
-比如 <a href="https://github.com/casouri/valign">valign</a> ， 这个工具也能进行对齐的。但是这个工具和cnfonts并不兼容，所以选择其一就可以了。</p>
+<p>使用cnfonts的理由是操作简单，当然也存在其他的对齐方法，例如单独设置表格的中文字体，
+ <a href="https://github.com/casouri/valign">valign</a> 正好提供了这样的功能。但是要注意这个工具和cnfonts并不兼容，所以选择其一就可以了。</p>
+</div>
+</div>
+<div id="outline-container-headline-16" class="outline-4">
+<h4 id="headline-16">
+三种方法优劣比较
+</h4>
+<div id="outline-text-headline-16" class="outline-text-4">
+<ul>
+<li>
+<p>第一种方法最简单，只要安装字体就行了，但是会有特殊情况无法对齐。</p>
+</li>
+<li>
+<p>cnfonts能分别设置中英文字体，覆盖所有表格对齐情况，但缺点是中英文尺寸相差很大，导致页面看上去不太和谐。而且支持的字体列表可能不满足所有人的需求。</p>
+</li>
+<li>
+<p>valign是我目前在用的，适合各种情形，推荐使用。（顺带一提，我使用的英文字体是 <code>IBM Plex Mono</code> 非常漂亮。</p>
+</li>
+</ul>
+<figure>
+    <img src="/images/emacs/3.png"/> 
+</figure>
+
 </div>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div id="outline-container-headline-16" class="outline-2">
-<h2 id="headline-16">
+<div id="outline-container-headline-17" class="outline-2">
+<h2 id="headline-17">
 Footnotes
 </h2>
 </div>
@@ -2505,13 +2527,15 @@ document.addEventListener('DOMContentLoaded', function () {
 </li>
 <li><a href="#headline-14">2. 使用cnfonts进行自动校准</a>
 </li>
-<li><a href="#headline-15">3. 如果用了cnfonts，就不要用额外的对齐工具</a>
+<li><a href="#headline-15">3. 单独设置表格字体</a>
+</li>
+<li><a href="#headline-16">三种方法优劣比较</a>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#headline-16">Footnotes</a>
+<li><a href="#headline-17">Footnotes</a>
 </li>
 </ul>
 </nav>
