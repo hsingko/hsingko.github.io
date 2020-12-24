@@ -1354,10 +1354,22 @@
 
 <link rel="manifest" href="/manifest.json">
 
-  
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.png" sizes="any" type="image/png" />
-  
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-512x512.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 
 
     <script type="application/ld+json">
@@ -1395,7 +1407,7 @@
     
 </head>
 
-<body id="root" class="theme__dark">
+<body id="root" class="theme__solarized">
     <script>
         var localTheme = localStorage.getItem('theme');
         if (localTheme) {
@@ -1413,14 +1425,10 @@
             <nav class="navbar scrolling" role="navigation" aria-label="main navigation" data-dir="ltr">
   <div class="navbar__brand">
     
-    <a href="/" title="Home" rel="home" class="navbar__logo-link">
-      <img src="/logo.png" alt="Home" class="navbar__logo">
+    <a href="/" title="Home" rel="home" class="navbar__long-link">
+      <img src="/home.png" alt="Home" class="navbar__logo">
     </a>
     
-    
-      <a href="/" title="Home" rel="home" class="navbar__title-link">
-        <h6 class="navbar__title">涂雨期</h6>
-      </a>
     
   </div>
 
@@ -1434,6 +1442,10 @@
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
+          solarized
+        </a>
+        
+        <a href="#" class="dropdown-item select-theme__item ">
           dark
         </a>
         
@@ -1443,10 +1455,6 @@
         
         <a href="#" class="dropdown-item select-theme__item ">
           hacker
-        </a>
-        
-        <a href="#" class="dropdown-item select-theme__item ">
-          solarized
         </a>
         
         <a href="#" class="dropdown-item select-theme__item ">
@@ -1557,6 +1565,10 @@
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
+          solarized
+        </a>
+        
+        <a href="#" class="dropdown-item select-theme__item ">
           dark
         </a>
         
@@ -1566,10 +1578,6 @@
         
         <a href="#" class="dropdown-item select-theme__item ">
           hacker
-        </a>
-        
-        <a href="#" class="dropdown-item select-theme__item ">
-          solarized
         </a>
         
         <a href="#" class="dropdown-item select-theme__item ">
@@ -1609,6 +1617,7 @@
   
 </div>
 </nav>
+
             
             
 
@@ -2700,7 +2709,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (lib && lib.includes('mermaid')) {
       
-      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"dark\"");
+      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"solarized\"");
 
       if (themeVariant === "dark" || themeVariant === "hacker") {
         mermaid.initialize({ theme: 'dark' });

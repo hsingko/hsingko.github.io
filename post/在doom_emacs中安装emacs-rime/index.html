@@ -1354,10 +1354,22 @@
 
 <link rel="manifest" href="/manifest.json">
 
-  
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/favicon.png" sizes="any" type="image/png" />
-  
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-512x512.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 
 
     <script type="application/ld+json">
@@ -1395,7 +1407,7 @@
     
 </head>
 
-<body id="root" class="theme__dark">
+<body id="root" class="theme__solarized">
     <script>
         var localTheme = localStorage.getItem('theme');
         if (localTheme) {
@@ -1413,14 +1425,10 @@
             <nav class="navbar scrolling" role="navigation" aria-label="main navigation" data-dir="ltr">
   <div class="navbar__brand">
     
-    <a href="/" title="Home" rel="home" class="navbar__logo-link">
-      <img src="/logo.png" alt="Home" class="navbar__logo">
+    <a href="/" title="Home" rel="home" class="navbar__long-link">
+      <img src="/home.png" alt="Home" class="navbar__logo">
     </a>
     
-    
-      <a href="/" title="Home" rel="home" class="navbar__title-link">
-        <h6 class="navbar__title">涂雨期</h6>
-      </a>
     
   </div>
 
@@ -1434,6 +1442,10 @@
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
+          solarized
+        </a>
+        
+        <a href="#" class="dropdown-item select-theme__item ">
           dark
         </a>
         
@@ -1443,10 +1455,6 @@
         
         <a href="#" class="dropdown-item select-theme__item ">
           hacker
-        </a>
-        
-        <a href="#" class="dropdown-item select-theme__item ">
-          solarized
         </a>
         
         <a href="#" class="dropdown-item select-theme__item ">
@@ -1557,6 +1565,10 @@
       
         
         <a href="#" class="dropdown-item select-theme__item is-active">
+          solarized
+        </a>
+        
+        <a href="#" class="dropdown-item select-theme__item ">
           dark
         </a>
         
@@ -1566,10 +1578,6 @@
         
         <a href="#" class="dropdown-item select-theme__item ">
           hacker
-        </a>
-        
-        <a href="#" class="dropdown-item select-theme__item ">
-          solarized
         </a>
         
         <a href="#" class="dropdown-item select-theme__item ">
@@ -1609,6 +1617,7 @@
   
 </div>
 </nav>
+
             
             
 
@@ -1944,7 +1953,7 @@
     
     <div class="grow"></div>
     
-      <a href="https://hsingko.github.io/post/orgmode/" class="pagination-single__right">      
+      <a href="https://hsingko.github.io/post/emacs/" class="pagination-single__right">      
         <div class="pagination-single__right-title">emacs使用笔记</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
@@ -2722,7 +2731,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (lib && lib.includes('mermaid')) {
       
-      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"dark\"");
+      var themeVariant = localStorage.getItem('theme') || JSON.parse("\"solarized\"");
 
       if (themeVariant === "dark" || themeVariant === "hacker") {
         mermaid.initialize({ theme: 'dark' });
