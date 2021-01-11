@@ -3,22 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hsingko.github.io/categories/</loc>
+    <lastmod>2021-01-08T11:44:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/post/</loc>
+    <lastmod>2021-01-08T11:44:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/categories/review/</loc>
+    <lastmod>2021-01-08T11:44:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/post/norwegian_wood/</loc>
+    <lastmod>2021-01-08T11:44:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/</loc>
+    <lastmod>2021-01-08T11:44:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/post/muenshagai/</loc>
+    <lastmod>2021-01-07T17:25:11+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hsingko.github.io/tags/blender/</loc>
     <lastmod>2020-12-25T17:26:40+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hsingko.github.io/categories/</loc>
-    <lastmod>2020-12-25T17:26:40+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hsingko.github.io/categories/how-to/</loc>
-    <lastmod>2020-12-25T17:26:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hsingko.github.io/post/</loc>
     <lastmod>2020-12-25T17:26:40+08:00</lastmod>
   </url>
   
@@ -29,11 +49,6 @@
   
   <url>
     <loc>https://hsingko.github.io/post/blender-mosaic/</loc>
-    <lastmod>2020-12-25T17:26:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hsingko.github.io/</loc>
     <lastmod>2020-12-25T17:26:40+08:00</lastmod>
   </url>
   
@@ -89,11 +104,6 @@
   
   <url>
     <loc>https://hsingko.github.io/tags/manga/</loc>
-    <lastmod>2020-11-10T09:49:02+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hsingko.github.io/categories/review/</loc>
     <lastmod>2020-11-10T09:49:02+08:00</lastmod>
   </url>
   

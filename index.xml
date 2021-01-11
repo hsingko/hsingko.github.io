@@ -14,7 +14,7 @@
     <managingEditor>hsingko@outlook.com (涂雨期)</managingEditor>
     <webMaster>hsingko@outlook.com (涂雨期)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 25 Dec 2020 17:26:40 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 08 Jan 2021 11:44:58 +0800</lastBuildDate>
     
         <atom:link href="https://hsingko.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,6 +42,48 @@
         
       
 
+      
+      <item>
+        <title>告别《挪威的森林》</title>
+        <link>https://hsingko.github.io/post/norwegian_wood/</link>
+        <pubDate>Fri, 08 Jan 2021 11:44:58 +0800</pubDate>
+        <author>hsingko@outlook.com (涂雨期)</author>
+        <atom:modified>Fri, 08 Jan 2021 11:44:58 +0800</atom:modified>
+        <guid>https://hsingko.github.io/post/norwegian_wood/</guid>
+        <description>已经好久没有写博客了，最近一直沉浸于自暴自弃的倦怠感中。告别2020，迎来2021，生活并没有变得有所不同，只是徒然老去罢了。 前几天回家办点</description>
+        
+        <dc:creator>涂雨期</dc:creator>
+        <media:content url="https://hsingko.github.iopost/norwegian_wood/cover.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+          
+            
+              <category>review</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>《无缘社会》：孤独的重量</title>
+        <link>https://hsingko.github.io/post/muenshagai/</link>
+        <pubDate>Thu, 07 Jan 2021 17:25:11 +0800</pubDate>
+        <author>hsingko@outlook.com (涂雨期)</author>
+        <atom:modified>Thu, 07 Jan 2021 17:25:11 +0800</atom:modified>
+        <guid>https://hsingko.github.io/post/muenshagai/</guid>
+        <description>昨晚横竖睡不着，于是就拿出手机读完了《无缘社会》。当翻到最后一页，我放下手机，在黑暗中环顾了一下空荡荡的房间，心想，这可不就是我未来的样子吗</description>
+        
+        <dc:creator>涂雨期</dc:creator>
+        <media:content url="https://hsingko.github.iopost/muenshagai/cover.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>如何用blender给视频打跟踪马赛克（无需任何基础知识）</title>
