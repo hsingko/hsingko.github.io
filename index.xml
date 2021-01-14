@@ -14,7 +14,7 @@
     <managingEditor>hsingko@outlook.com (涂雨期)</managingEditor>
     <webMaster>hsingko@outlook.com (涂雨期)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 08 Jan 2021 11:44:58 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 12 Jan 2021 14:59:04 +0800</lastBuildDate>
     
         <atom:link href="https://hsingko.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,6 +42,30 @@
         
       
 
+      
+      <item>
+        <title>一款惊艳的firefox配置：blurredfox</title>
+        <link>https://hsingko.github.io/post/blurredfox/</link>
+        <pubDate>Tue, 12 Jan 2021 14:59:04 +0800</pubDate>
+        <author>hsingko@outlook.com (涂雨期)</author>
+        <atom:modified>Tue, 12 Jan 2021 14:59:04 +0800</atom:modified>
+        <guid>https://hsingko.github.io/post/blurredfox/</guid>
+        <description>今天，我的chromium又崩溃了，才开了两三个标签页，只有一个在播放视频，然后整个界面就突然卡死了。不知道为什么，最近我电脑上的浏览器都跟</description>
+        
+        <dc:creator>涂雨期</dc:creator>
+        <media:content url="https://hsingko.github.iopost/blurredfox/cover.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>firefox</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>告别《挪威的森林》</title>
