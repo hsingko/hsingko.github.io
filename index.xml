@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 12 Jan 2021 14:59:04 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 03 Feb 2021 22:03:11 +0800</lastBuildDate>
     
         <atom:link href="https://hsingko.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,30 @@
         
       
 
+      
+      <item>
+        <title>人生未必非要有什么目的</title>
+        <link>https://hsingko.github.io/post/gossip/20210203/</link>
+        <pubDate>Wed, 03 Feb 2021 22:03:11 +0800</pubDate>
+        
+        <atom:modified>Wed, 03 Feb 2021 22:03:11 +0800</atom:modified>
+        <guid>https://hsingko.github.io/post/gossip/20210203/</guid>
+        <description>又隔了很久没有写博客了。一直以来，我都将写作看作是探索自我、抒发内心压力的唯一方式，但当我面对空白的屏幕时，内心总会有一种抗拒感：一方面，我</description>
+        
+        <dc:creator>涂雨期</dc:creator>
+        
+        
+        
+        
+        
+          
+            
+              <category>gossip</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>一款惊艳的firefox配置：blurredfox</title>

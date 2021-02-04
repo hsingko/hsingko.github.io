@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://hsingko.github.io/tags/firefox/</loc>
-    <lastmod>2021-01-12T14:59:04+08:00</lastmod>
+    <loc>https://hsingko.github.io/categories/</loc>
+    <lastmod>2021-02-03T22:03:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/categories/gossip/</loc>
+    <lastmod>2021-02-03T22:03:11+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://hsingko.github.io/post/</loc>
+    <lastmod>2021-02-03T22:03:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/post/gossip/20210203/</loc>
+    <lastmod>2021-02-03T22:03:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/</loc>
+    <lastmod>2021-02-03T22:03:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/tags/firefox/</loc>
     <lastmod>2021-01-12T14:59:04+08:00</lastmod>
   </url>
   
@@ -23,11 +43,6 @@
   </url>
   
   <url>
-    <loc>https://hsingko.github.io/</loc>
-    <lastmod>2021-01-12T14:59:04+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hsingko.github.io/tags/meditation/</loc>
     <lastmod>2021-01-12T09:44:53+08:00</lastmod>
   </url>
@@ -35,11 +50,6 @@
   <url>
     <loc>https://hsingko.github.io/post/100days_of_meditation/</loc>
     <lastmod>2021-01-12T09:44:53+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hsingko.github.io/categories/</loc>
-    <lastmod>2021-01-08T11:44:58+08:00</lastmod>
   </url>
   
   <url>
@@ -104,11 +114,6 @@
   
   <url>
     <loc>https://hsingko.github.io/tags/chrome/</loc>
-    <lastmod>2020-11-15T16:48:13+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hsingko.github.io/categories/gossip/</loc>
     <lastmod>2020-11-15T16:48:13+08:00</lastmod>
   </url>
   
