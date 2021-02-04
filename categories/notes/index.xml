@@ -11,8 +11,6 @@
     <description>Recent content in notes on 涂雨期的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hsingko@outlook.com (涂雨期)</managingEditor>
-    <webMaster>hsingko@outlook.com (涂雨期)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 08 Nov 2020 09:11:37 +0800</lastBuildDate>
     
@@ -26,7 +24,7 @@
         <title>Hugo Shortcode简介</title>
         <link>https://hsingko.github.io/post/hugo-shortcodes/</link>
         <pubDate>Sun, 08 Nov 2020 09:11:37 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Sun, 08 Nov 2020 09:11:37 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/hugo-shortcodes/</guid>
         <description>shortcodes其实就是hugo提供的一种增强markdown表现力的工具。 hugo自带的shortcode 其实shortcode具体是</description>

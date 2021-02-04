@@ -11,8 +11,6 @@
     <description>Recent content in Posts on 涂雨期的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hsingko@outlook.com (涂雨期)</managingEditor>
-    <webMaster>hsingko@outlook.com (涂雨期)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
     <lastBuildDate>Tue, 12 Jan 2021 14:59:04 +0800</lastBuildDate>
     
@@ -26,7 +24,7 @@
         <title>一款惊艳的firefox配置：blurredfox</title>
         <link>https://hsingko.github.io/post/blurredfox/</link>
         <pubDate>Tue, 12 Jan 2021 14:59:04 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Tue, 12 Jan 2021 14:59:04 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/blurredfox/</guid>
         <description>今天，我的chromium又崩溃了，才开了两三个标签页，只有一个在播放视频，然后整个界面就突然卡死了。不知道为什么，最近我电脑上的浏览器都跟</description>
@@ -50,7 +48,7 @@
         <title>百日静坐随笔</title>
         <link>https://hsingko.github.io/post/100days_of_meditation/</link>
         <pubDate>Tue, 12 Jan 2021 09:44:53 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Tue, 12 Jan 2021 09:44:53 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/100days_of_meditation/</guid>
         <description>自从去年下半年开始冥想，到今天已经正式一百天了，期间一次都没有中断过。每晚睡前我都会用手机定好一个十五分钟的闹钟，伴随着喇叭里播放的轻柔雨声</description>
@@ -74,7 +72,7 @@
         <title>告别《挪威的森林》</title>
         <link>https://hsingko.github.io/post/norwegian_wood/</link>
         <pubDate>Fri, 08 Jan 2021 11:44:58 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Fri, 08 Jan 2021 11:44:58 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/norwegian_wood/</guid>
         <description>已经好久没有写博客了，最近一直沉浸于自暴自弃的倦怠感中。告别2020，迎来2021，生活并没有变得有所不同，只是徒然老去罢了。 前几天回家办点</description>
@@ -98,7 +96,7 @@
         <title>如何用blender给视频打跟踪马赛克（无需任何基础知识）</title>
         <link>https://hsingko.github.io/post/blender-mosaic/</link>
         <pubDate>Fri, 25 Dec 2020 17:26:40 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Fri, 25 Dec 2020 17:26:40 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/blender-mosaic/</guid>
         <description>今天看到一个很喜欢的片子，无奈里面男主长相有点古怪，于是突发奇想，不如干脆给他打上马赛克吧，眼不见心不烦！ 开干之前以为是件很简单的事情，想着</description>
@@ -128,7 +126,7 @@
         <title>emacs使用笔记</title>
         <link>https://hsingko.github.io/post/emacs/</link>
         <pubDate>Wed, 23 Dec 2020 10:17:41 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Wed, 23 Dec 2020 10:17:41 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/emacs/</guid>
         <description>使用emacs+orgmode已经一段时间了，用起来确实很爽，orgmode比起todoist强得多，以后就决定用这个来实践GTD工作法了，</description>
@@ -156,7 +154,7 @@
         <title>在doom emacs中安装emacs-rime</title>
         <link>https://hsingko.github.io/post/%E5%9C%A8doom_emacs%E4%B8%AD%E5%AE%89%E8%A3%85emacs-rime/</link>
         <pubDate>Thu, 17 Dec 2020 19:51:22 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Thu, 17 Dec 2020 19:51:22 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/%E5%9C%A8doom_emacs%E4%B8%AD%E5%AE%89%E8%A3%85emacs-rime/</guid>
         <description>最近看了《子弹笔记法》，又想要折腾GTD工作法了。为什么起这个念头呢？那是因为2020都快结束了，而年初的计划根本就没有实现啊，感觉又白白浪</description>
@@ -190,10 +188,10 @@
         <title>利用ublock origin去除知乎、bilibili上的搜索框广告</title>
         <link>https://hsingko.github.io/post/fuck-ad/</link>
         <pubDate>Sun, 15 Nov 2020 16:48:13 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Sun, 15 Nov 2020 16:48:13 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/fuck-ad/</guid>
-        <description>真不知道是哪个天才想出来的，居然在搜索框里放广告，每次想要搜点什么东西就得捏着鼻子看网站的弱智推广。今天终于忍不了了，决定想办法把这些狗皮癣</description>
+        <description>现在本文的方法已经无法屏蔽两个网站的广告了 真不知道是哪个天才想出来的，居然在搜索框里放广告，每次想要搜点什么东西就得捏着鼻子看网站的弱智推广</description>
         
         <dc:creator>涂雨期</dc:creator>
         
@@ -224,7 +222,7 @@
         <title>现在在追的漫画</title>
         <link>https://hsingko.github.io/post/manga/</link>
         <pubDate>Tue, 10 Nov 2020 09:49:02 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Tue, 10 Nov 2020 09:49:02 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/manga/</guid>
         <description>生活已经如此艰难，所以我们就一起来看轻松愉快的漫画吧。 日常类 《伯纳德小姐说》 作者：施川汤雨期 没错，封面上这个一脸呆样的家伙就是漫画的主人公伯</description>
@@ -254,7 +252,7 @@
         <title>Hugo Shortcode简介</title>
         <link>https://hsingko.github.io/post/hugo-shortcodes/</link>
         <pubDate>Sun, 08 Nov 2020 09:11:37 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Sun, 08 Nov 2020 09:11:37 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/hugo-shortcodes/</guid>
         <description>shortcodes其实就是hugo提供的一种增强markdown表现力的工具。 hugo自带的shortcode 其实shortcode具体是</description>
@@ -284,7 +282,7 @@
         <title>从fcitx升级到fcitx5</title>
         <link>https://hsingko.github.io/post/%E4%BB%8Efcitx%E5%8D%87%E7%BA%A7%E5%88%B0fcitx5/</link>
         <pubDate>Sat, 07 Nov 2020 13:30:22 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Sat, 07 Nov 2020 13:30:22 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/%E4%BB%8Efcitx%E5%8D%87%E7%BA%A7%E5%88%B0fcitx5/</guid>
         <description>上个星期偶然看到有博客说fcitx5在arch上已经比较好用了，于是又大着胆子卸载了fcitx装上了fcitx5。用着确实很爽，因为界面漂亮</description>
@@ -314,7 +312,7 @@
         <title>Hugo折腾笔记</title>
         <link>https://hsingko.github.io/post/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</link>
         <pubDate>Fri, 06 Nov 2020 13:27:21 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Fri, 06 Nov 2020 13:27:21 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/hugo%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</guid>
         <description>又开始折腾起博客了，和大多数人一样，我已经折腾了好几次博客了。从wordpress到hexo、hugo，再到blogspot。现在又回归到了</description>

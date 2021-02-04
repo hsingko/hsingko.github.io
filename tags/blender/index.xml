@@ -11,8 +11,6 @@
     <description>Recent content in blender on 涂雨期的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hsingko@outlook.com (涂雨期)</managingEditor>
-    <webMaster>hsingko@outlook.com (涂雨期)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
     <lastBuildDate>Fri, 25 Dec 2020 17:26:40 +0800</lastBuildDate>
     
@@ -26,7 +24,7 @@
         <title>如何用blender给视频打跟踪马赛克（无需任何基础知识）</title>
         <link>https://hsingko.github.io/post/blender-mosaic/</link>
         <pubDate>Fri, 25 Dec 2020 17:26:40 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Fri, 25 Dec 2020 17:26:40 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/blender-mosaic/</guid>
         <description>今天看到一个很喜欢的片子，无奈里面男主长相有点古怪，于是突发奇想，不如干脆给他打上马赛克吧，眼不见心不烦！ 开干之前以为是件很简单的事情，想着</description>

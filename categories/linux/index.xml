@@ -11,8 +11,6 @@
     <description>Recent content in linux on 涂雨期的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hsingko@outlook.com (涂雨期)</managingEditor>
-    <webMaster>hsingko@outlook.com (涂雨期)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 17 Dec 2020 19:51:22 +0800</lastBuildDate>
     
@@ -26,7 +24,7 @@
         <title>在doom emacs中安装emacs-rime</title>
         <link>https://hsingko.github.io/post/%E5%9C%A8doom_emacs%E4%B8%AD%E5%AE%89%E8%A3%85emacs-rime/</link>
         <pubDate>Thu, 17 Dec 2020 19:51:22 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Thu, 17 Dec 2020 19:51:22 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/%E5%9C%A8doom_emacs%E4%B8%AD%E5%AE%89%E8%A3%85emacs-rime/</guid>
         <description>最近看了《子弹笔记法》，又想要折腾GTD工作法了。为什么起这个念头呢？那是因为2020都快结束了，而年初的计划根本就没有实现啊，感觉又白白浪</description>

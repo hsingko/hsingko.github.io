@@ -11,8 +11,6 @@
     <description>Recent content in chrome on 涂雨期的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hsingko@outlook.com (涂雨期)</managingEditor>
-    <webMaster>hsingko@outlook.com (涂雨期)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 15 Nov 2020 16:48:13 +0800</lastBuildDate>
     
@@ -26,10 +24,10 @@
         <title>利用ublock origin去除知乎、bilibili上的搜索框广告</title>
         <link>https://hsingko.github.io/post/fuck-ad/</link>
         <pubDate>Sun, 15 Nov 2020 16:48:13 +0800</pubDate>
-        <author>hsingko@outlook.com (涂雨期)</author>
+        
         <atom:modified>Sun, 15 Nov 2020 16:48:13 +0800</atom:modified>
         <guid>https://hsingko.github.io/post/fuck-ad/</guid>
-        <description>真不知道是哪个天才想出来的，居然在搜索框里放广告，每次想要搜点什么东西就得捏着鼻子看网站的弱智推广。今天终于忍不了了，决定想办法把这些狗皮癣</description>
+        <description>现在本文的方法已经无法屏蔽两个网站的广告了 真不知道是哪个天才想出来的，居然在搜索框里放广告，每次想要搜点什么东西就得捏着鼻子看网站的弱智推广</description>
         
         <dc:creator>涂雨期</dc:creator>
         
