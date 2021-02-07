@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 12 Jan 2021 14:59:04 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 07 Feb 2021 14:33:15 +0800</lastBuildDate>
     
         <atom:link href="https://hsingko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -21,12 +21,12 @@
 
       
       <item>
-        <title>firefox</title>
-        <link>https://hsingko.github.io/tags/firefox/</link>
-        <pubDate>Tue, 12 Jan 2021 14:59:04 +0800</pubDate>
+        <title>meditation</title>
+        <link>https://hsingko.github.io/tags/meditation/</link>
+        <pubDate>Sun, 07 Feb 2021 14:33:15 +0800</pubDate>
         
         
-        <guid>https://hsingko.github.io/tags/firefox/</guid>
+        <guid>https://hsingko.github.io/tags/meditation/</guid>
         <description></description>
         
         <dc:creator>涂雨期</dc:creator>
@@ -39,12 +39,12 @@
       </item>
       
       <item>
-        <title>meditation</title>
-        <link>https://hsingko.github.io/tags/meditation/</link>
-        <pubDate>Tue, 12 Jan 2021 09:44:53 +0800</pubDate>
+        <title>firefox</title>
+        <link>https://hsingko.github.io/tags/firefox/</link>
+        <pubDate>Tue, 12 Jan 2021 14:59:04 +0800</pubDate>
         
         
-        <guid>https://hsingko.github.io/tags/meditation/</guid>
+        <guid>https://hsingko.github.io/tags/firefox/</guid>
         <description></description>
         
         <dc:creator>涂雨期</dc:creator>

@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hsingko.github.io/tags/meditation/</loc>
+    <lastmod>2021-02-07T14:33:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/post/</loc>
+    <lastmod>2021-02-07T14:33:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/tags/</loc>
+    <lastmod>2021-02-07T14:33:15+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hsingko.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://hsingko.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/</loc>
+    <lastmod>2021-02-07T14:33:15+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hsingko.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cn"
+                href="https://hsingko.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/post/120days_of_meditation/</loc>
+    <lastmod>2021-02-07T14:33:15+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hsingko.github.io/categories/</loc>
     <lastmod>2021-02-03T22:03:11+08:00</lastmod>
     <xhtml:link
@@ -23,28 +68,8 @@
   </url>
   
   <url>
-    <loc>https://hsingko.github.io/post/</loc>
-    <lastmod>2021-02-03T22:03:11+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hsingko.github.io/post/gossip/20210203/</loc>
     <lastmod>2021-02-03T22:03:11+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hsingko.github.io/</loc>
-    <lastmod>2021-02-03T22:03:11+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hsingko.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://hsingko.github.io/"
-                />
   </url>
   
   <url>
@@ -53,28 +78,8 @@
   </url>
   
   <url>
-    <loc>https://hsingko.github.io/tags/</loc>
-    <lastmod>2021-01-12T14:59:04+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hsingko.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cn"
-                href="https://hsingko.github.io/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://hsingko.github.io/post/blurredfox/</loc>
     <lastmod>2021-01-12T14:59:04+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hsingko.github.io/tags/meditation/</loc>
-    <lastmod>2021-01-12T09:44:53+08:00</lastmod>
   </url>
   
   <url>
@@ -90,6 +95,11 @@
   <url>
     <loc>https://hsingko.github.io/post/norwegian_wood/</loc>
     <lastmod>2021-01-08T11:44:58+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/about/</loc>
+    <lastmod>2021-01-01T12:50:46+09:00</lastmod>
   </url>
   
   <url>
