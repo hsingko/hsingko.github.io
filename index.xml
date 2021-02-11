@@ -43,11 +43,11 @@
       
       <item>
         <title>中文字体压缩的那些事</title>
-        <link>https://hsingko.github.io/post/compress_chinese_webfont/</link>
+        <link>https://hsingko.github.io/post/compress_webfont/</link>
         <pubDate>Thu, 11 Feb 2021 11:04:04 +0800</pubDate>
         
         <atom:modified>Thu, 11 Feb 2021 11:04:04 +0800</atom:modified>
-        <guid>https://hsingko.github.io/post/compress_chinese_webfont/</guid>
+        <guid>https://hsingko.github.io/post/compress_webfont/</guid>
         <description>实在是对页面上一成不变的中文字体腻烦了，于是我对自己说：管他什么 web 安全字体呢，我就想要养眼的阅读体验不可以吗？漂亮的中文字体那么多，为啥我非</description>
         
         <dc:creator>涂雨期</dc:creator>
