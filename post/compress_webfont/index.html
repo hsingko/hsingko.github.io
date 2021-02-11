@@ -1331,10 +1331,10 @@
 
 
     
-<meta name="description" content="鉴于博客的默认字体太难看了，于是我狠狠地折腾了一把字体" />
+<meta name="description" content="鉴于博客的默认字体太难看了，于是我狠狠地折腾了一把字体，最后得到一个结论：中文完全可以用webfont" />
 
 
-<meta name="keywords" content="webfont,fonttools,Chinese">
+<meta name="keywords" content="webfont,fonttools,ripgrep">
 
 <meta name="created" content="2021-02-11T11:04:04&#43;0800">
 <meta name="modified" content="2021-02-11T11:04:04&#43;0800">
@@ -1347,7 +1347,7 @@
 <meta property="og:title" content="中文字体压缩的那些事">
 <meta property="og:url" content="https://hsingko.github.io/post/compress_webfont/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="鉴于博客的默认字体太难看了，于是我狠狠地折腾了一把字体">
+<meta property="og:description" content="鉴于博客的默认字体太难看了，于是我狠狠地折腾了一把字体，最后得到一个结论：中文完全可以用webfont">
 
 <meta name="generator" content="Hugo 0.80.0" />
 <meta name="msapplication-TileColor" content="#fff">
@@ -1388,8 +1388,8 @@
     "datePublished": "2021-02-11T11:04:04+08:00",
     "dateModified": "2021-02-11T11:04:04+08:00",
     "url" : "https://hsingko.github.io/post/compress_webfont/",
-    "description": "鉴于博客的默认字体太难看了，于是我狠狠地折腾了一把字体",
-    "keywords": ["webfont","fonttools","Chinese"],
+    "description": "鉴于博客的默认字体太难看了，于是我狠狠地折腾了一把字体，最后得到一个结论：中文完全可以用webfont",
+    "keywords": ["webfont","fonttools","ripgrep"],
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://hsingko.github.io"
@@ -1698,7 +1698,7 @@
 
   <li><a href="https://hsingko.github.io/tags/fonttools/" class="single__tag" title="fonttools">#fonttools</a></li>
 
-  <li><a href="https://hsingko.github.io/tags/chinese/" class="single__tag" title="Chinese">#Chinese</a></li>
+  <li><a href="https://hsingko.github.io/tags/ripgrep/" class="single__tag" title="ripgrep">#ripgrep</a></li>
 
 </ul>
 
@@ -1923,9 +1923,13 @@ git push origin master
 </code></pre></td></tr></table>
 </div>
 </div><p>注意在上面这个脚本中，我使用了 <code>fonttools ttLib.woff2 compress</code>命令。<br />
-这个命令的作用是将生成的 ttf 转换为 woff2 格式，这进一步压缩了字体文件，最后生成的文件只有 162.8K， 压缩了将近一半，可以说是相当令人满意的结果了。</p>
-<p>整体部署的时间也并没有因此变得很长，上面的操作整个流程大概耗时3秒左右，基本没有什么感知。</p>
+这个命令的作用是将生成的 ttf 转换为 woff2 格式，这进一步压缩了字体文件，最后生成的文件只有 162.8K， 压缩了将近一半。</p>
 <h2 id="总结">总结</h2>
+<p>即便是将来写更多的文章，用到的汉字数量也不会有很大的增长，我想最后也不会超过200K。相比之下，普通的英文字体大小大约在20K~30K左右，这其实已经是一个完全可以接受的大小了。</p>
+<p>另外就是整体部署的时间也并没有因此变得很长，增加字体相关操作大概耗时3秒左右，总体部署耗时14秒，没有增加什么时间成本。</p>
+<p>最后的上线效果也令人满意，大陆直连情况下加载字体文件也平均只需要500ms左右（和github的cdn波动有关，快的时候300ms，慢的时候700ms）。<br />
+<img src="https://i.postimg.cc/hGs8Q7HF/before.png" alt="before.png" /></p>
+<p>即便是用<code>ctl F5</code>强制刷新，加载的速度也非常快，基本不会感受到什么延迟，如果换用国内的CDN还能更快。综上，中文 webfont 完全可以称得上能用了。</p>
 <p>为了把自己的博客弄得顺眼一点我花了一个晚上的时间折腾出了字体方案，又花了两个多小时写这篇博客，可算是把自己折腾得够惨。不过生命就在于折腾，在过程中我也学到了许多东西，所以以后还要继续折腾:P</p>
 
     </article>
