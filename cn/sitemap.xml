@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://hsingko.github.io/</loc>
-    <lastmod>2021-02-07T14:33:15+08:00</lastmod>
+    <lastmod>2021-02-11T11:04:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,18 +18,23 @@
   </url>
   
   <url>
-    <loc>https://hsingko.github.io/tags/meditation/</loc>
-    <lastmod>2021-02-07T14:33:15+08:00</lastmod>
+    <loc>https://hsingko.github.io/tags/chinese/</loc>
+    <lastmod>2021-02-11T11:04:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/tags/fonttools/</loc>
+    <lastmod>2021-02-11T11:04:04+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://hsingko.github.io/post/</loc>
-    <lastmod>2021-02-07T14:33:15+08:00</lastmod>
+    <lastmod>2021-02-11T11:04:04+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://hsingko.github.io/tags/</loc>
-    <lastmod>2021-02-07T14:33:15+08:00</lastmod>
+    <lastmod>2021-02-11T11:04:04+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -40,6 +45,21 @@
                 hreflang="cn"
                 href="https://hsingko.github.io/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/tags/webfont/</loc>
+    <lastmod>2021-02-11T11:04:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/post/compress_chinese_webfont/</loc>
+    <lastmod>2021-02-11T11:04:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/tags/meditation/</loc>
+    <lastmod>2021-02-07T14:33:15+08:00</lastmod>
   </url>
   
   <url>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>fonttools on 涂雨期的博客</title>
+    <link>https://hsingko.github.io/tags/fonttools/</link>
+    <description>Recent content in fonttools on 涂雨期的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 11 Feb 2021 11:04:04 +0800</lastBuildDate>
+    
+        <atom:link href="https://hsingko.github.io/tags/fonttools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>中文字体压缩的那些事</title>
+        <link>https://hsingko.github.io/post/compress_chinese_webfont/</link>
+        <pubDate>Thu, 11 Feb 2021 11:04:04 +0800</pubDate>
+        
+        <atom:modified>Thu, 11 Feb 2021 11:04:04 +0800</atom:modified>
+        <guid>https://hsingko.github.io/post/compress_chinese_webfont/</guid>
+        <description>实在是对页面上一成不变的中文字体腻烦了，于是我对自己说：管他什么 web 安全字体呢，我就想要养眼的阅读体验不可以吗？漂亮的中文字体那么多，为啥我非</description>
+        
+        <dc:creator>涂雨期</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>webfont</category>
+            
+          
+            
+              <category>fonttools</category>
+            
+          
+            
+              <category>Chinese</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
