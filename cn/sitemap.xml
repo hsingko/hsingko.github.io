@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://hsingko.github.io/</loc>
-    <lastmod>2021-02-17T22:39:43+08:00</lastmod>
+    <lastmod>2021-03-07T15:27:29+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -18,18 +18,13 @@
   </url>
   
   <url>
-    <loc>https://hsingko.github.io/tags/meditation/</loc>
-    <lastmod>2021-02-17T22:39:43+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hsingko.github.io/post/</loc>
-    <lastmod>2021-02-17T22:39:43+08:00</lastmod>
+    <lastmod>2021-03-07T15:27:29+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://hsingko.github.io/tags/</loc>
-    <lastmod>2021-02-17T22:39:43+08:00</lastmod>
+    <lastmod>2021-03-07T15:27:29+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -40,6 +35,21 @@
                 hreflang="cn"
                 href="https://hsingko.github.io/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/tags/%E6%B8%B8%E8%AE%B0/</loc>
+    <lastmod>2021-03-07T15:27:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/post/xianghu/</loc>
+    <lastmod>2021-03-07T15:27:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hsingko.github.io/tags/meditation/</loc>
+    <lastmod>2021-02-17T22:39:43+08:00</lastmod>
   </url>
   
   <url>

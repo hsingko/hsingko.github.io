@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>游记 on 涂雨期的博客</title>
+    <link>https://hsingko.github.io/tags/%E6%B8%B8%E8%AE%B0/</link>
+    <description>Recent content in 游记 on 涂雨期的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 07 Mar 2021 15:27:29 +0800</lastBuildDate>
+    
+        <atom:link href="https://hsingko.github.io/tags/%E6%B8%B8%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>湘湖纪行</title>
+        <link>https://hsingko.github.io/post/xianghu/</link>
+        <pubDate>Sun, 07 Mar 2021 15:27:29 +0800</pubDate>
+        
+        <atom:modified>Sun, 07 Mar 2021 15:27:29 +0800</atom:modified>
+        <guid>https://hsingko.github.io/post/xianghu/</guid>
+        <description>湘湖(图片来自互联网) 湘湖位于浙江萧山，以风景秀丽而被誉为西湖的“姐妹湖”，同时也是中国4A级旅游景区。 我去湘湖完全是一时兴起，太久没有活动</description>
+        
+        <dc:creator>涂雨期</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>游记</category>
+            
+          
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
