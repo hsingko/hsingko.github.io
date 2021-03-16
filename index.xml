@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 07 Mar 2021 15:27:29 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 16 Mar 2021 18:48:13 +0800</lastBuildDate>
     
         <atom:link href="https://hsingko.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,30 @@
         
       
 
+      
+      <item>
+        <title>静坐随笔：失去正念的两周</title>
+        <link>https://hsingko.github.io/post/lost-mindfulness/</link>
+        <pubDate>Tue, 16 Mar 2021 18:48:13 +0800</pubDate>
+        
+        <atom:modified>Tue, 16 Mar 2021 18:48:13 +0800</atom:modified>
+        <guid>https://hsingko.github.io/post/lost-mindfulness/</guid>
+        <description>最近一直沉迷于看小说，学习什么的都荒废了不少： SICP 停在了第三章， Anki 每天也只背背以前的单词，没计划新的内容；月初书单了加了一堆书，现在都还只看了</description>
+        
+        <dc:creator>涂雨期</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>meditation</category>
+            
+          
+        
+        
+        
+      </item>
       
       <item>
         <title>湘湖纪行</title>
